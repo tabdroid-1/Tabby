@@ -1,0 +1,6 @@
+[submodule "Hazel/vendors/imgui"]
+	path = Hazel/vendors/imgui
+	url = https://github.com/broelga/imgui
+[submodule "Hazel/vendor/glm"]
+	path = Hazel/vendor/glm
+	url = https://github.com/g-truc/glm.git

@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+          "targetArchitecture": "arm64",
+          "name": "(lldb) Launch",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "/Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox/TabbySandbox",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "/Users/tabby/Desktop/projects/C++/Tabby",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "lldb"
+      }
+    ]
+  }
