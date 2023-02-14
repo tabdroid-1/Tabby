@@ -1,12 +1,12 @@
-#include "RenderCommand.h"
+#include "Tabby/Renderer/RenderCommand.h"
 
-#include <Tabby/Platform/OpenGL/OpenGLRendererAPI.h>
+#include "Platform/OpenGL/OpenGLRendererAPI.h"
 
 #include <glad/glad.h>
 
 namespace Tabby {
 
-    Scope<RendererAPI> RenderCommand::s_RendererAPI = CreateScope<OpenGLRendererAPI>();
+    Scope<RendererAPI> RenderCommand::s_RendererAPI = RendererAPI::Create();
 
     void RenderCommand::GetError() {
         GLenum e = glGetError();

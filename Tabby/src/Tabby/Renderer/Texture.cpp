@@ -1,8 +1,8 @@
 #include "tbpch.h"
-#include "Texture.h"
+#include "Tabby/Renderer/Texture.h"
 
-#include "Renderer.h"
-#include "Tabby/Platform/OpenGL/OpenGLTexture.h"
+#include "Tabby/Renderer/Renderer.h"
+#include "Platform/OpenGL/OpenGLTexture.h"
 
 namespace Tabby {
 

@@ -109,7 +109,7 @@ Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/build.make
 Sandbox/TabbySandbox: Tabby/libTabby.a
-Sandbox/TabbySandbox: Tabby/vendor/spdlog/libspdlog.1.8.5.dylib
+Sandbox/TabbySandbox: Tabby/vendor/spdlog/libspdlogd.1.8.5.dylib
 Sandbox/TabbySandbox: Tabby/vendor/Glad/libGlad.dylib
 Sandbox/TabbySandbox: Tabby/vendor/GLFW/src/libglfw.3.4.dylib
 Sandbox/TabbySandbox: Tabby/vendor/libimgui.a

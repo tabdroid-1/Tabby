@@ -6,7 +6,7 @@ C_DEFINES = -D_GLFW_BUILD_DLL -D_GLFW_USE_CONFIG_H
 
 C_INCLUDES = -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/GLFW/include -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/GLFW/src -I/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/GLFW/src
 
-C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -Wall -fvisibility=hidden -std=c99
+C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -Wall -fvisibility=hidden -std=c99
 
-C_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -Wall -fvisibility=hidden -std=c99
+C_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -Wall -fvisibility=hidden -std=c99
 

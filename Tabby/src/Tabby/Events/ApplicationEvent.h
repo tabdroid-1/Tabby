@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Event.h"
+#include "Tabby/Events/Event.h"
 
 namespace Tabby {
 
@@ -29,7 +29,8 @@ namespace Tabby {
 
     class WindowCloseEvent : public Event {
     public:
-        WindowCloseEvent() {}
+
+        WindowCloseEvent() = default;
 
         EVENT_CLASS_TYPE(WindowClose)
 
@@ -38,7 +39,7 @@ namespace Tabby {
 
     class AppTickEvent : public Event {
     public:
-        AppTickEvent() {}
+        AppTickEvent() = default;
 
         EVENT_CLASS_TYPE(AppTick)
 
@@ -47,7 +48,7 @@ namespace Tabby {
 
     class AppUpdateEvent : public Event {
     public:
-        AppUpdateEvent() {}
+        AppUpdateEvent() = default;
 
         EVENT_CLASS_TYPE(AppUpdate)
 
@@ -56,7 +57,7 @@ namespace Tabby {
 
     class AppRenderEvent : public Event {
     public:
-        AppRenderEvent() {}
+        AppRenderEvent() = default;
 
         EVENT_CLASS_TYPE(AppRender)
 

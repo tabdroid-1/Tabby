@@ -17,7 +17,7 @@ private:
     Tabby::Ref<Tabby::Shader> m_FlatColorShader;
     Tabby::Ref<Tabby::VertexArray> m_SquareVA;
 
-    Tabby::Ref<Tabby::Texture2D> m_Texture, m_BLogoTexture;
+    Tabby::Ref<Tabby::Texture2D> m_Texture, m_TabbyLogoTexture;
 
     Tabby::OrthographicCameraController m_CameraController;
         float m_CameraSpeed = 1.0f;

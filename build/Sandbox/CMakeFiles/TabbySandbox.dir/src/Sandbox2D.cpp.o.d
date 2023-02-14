@@ -239,7 +239,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Application.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
@@ -453,6 +453,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/ApplicationEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -463,8 +470,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseButtonCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/OrthographicCameraController.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
@@ -618,14 +626,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \

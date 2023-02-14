@@ -1,13 +1,13 @@
 #pragma once
 
 #include "Core.h"
-#include "Layer.h"
+#include "Tabby/Core/Layer.h"
 
 namespace Tabby {
 
     class LayerStack {
     public:
-        LayerStack();
+        LayerStack() = default;
         ~LayerStack();
 
         void PushLayer(Layer* layer);

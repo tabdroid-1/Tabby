@@ -241,7 +241,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Application.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
@@ -455,6 +455,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/ApplicationEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -465,8 +472,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseButtonCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/OrthographicCameraController.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
@@ -620,14 +628,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
@@ -971,7 +978,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Application.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
@@ -1185,6 +1192,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/ApplicationEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -1195,8 +1209,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseButtonCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/OrthographicCameraController.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
@@ -1350,18 +1365,14 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/EntryPoint.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Platform/OpenGL/OpenGLShader.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include/glad/glad.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include/KHR/khrplatform.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
@@ -1467,8 +1478,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.h
 
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include/KHR/khrplatform.h:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/SandboxApp.cpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl:
@@ -1517,6 +1526,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_float.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h:
@@ -1552,8 +1563,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x3.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include/glad/glad.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x3_precision.hpp:
 
@@ -1653,6 +1662,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool3_precision.hpp:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.inl:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool3.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec3.hpp:
@@ -1693,15 +1704,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/simd/platform.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.inl:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/OrthographicCameraController.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseButtonCodes.h:
 
@@ -1714,6 +1721,12 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Timestep.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h:
 
@@ -2035,6 +2048,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_matrix.inl:
@@ -2068,6 +2083,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/search.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream:
 
@@ -2186,6 +2203,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_double2.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
@@ -2314,6 +2333,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/advance.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
 
@@ -2491,9 +2512,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint2.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/__wctype.h:
 
@@ -2589,8 +2610,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Application.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uid_t.h:
@@ -2650,8 +2669,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/arm/_structs.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Platform/OpenGL/OpenGLShader.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits:
 
@@ -2732,6 +2749,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__availability:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill.h:
 

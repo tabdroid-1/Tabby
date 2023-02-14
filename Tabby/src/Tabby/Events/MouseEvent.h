@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Event.h"
+#include "Tabby/Events/Event.h"
 
 namespace Tabby {
 

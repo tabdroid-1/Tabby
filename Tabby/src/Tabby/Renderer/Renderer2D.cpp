@@ -1,9 +1,9 @@
 #include "tbpch.h"
-#include "Renderer2D.h"
+#include "Tabby/Renderer/Renderer2D.h"
 
-#include "VertexArray.h"
-#include "Shader.h"
-#include "RenderCommand.h"
+#include "Tabby/Renderer/VertexArray.h"
+#include "Tabby/Renderer/Shader.h"
+#include "Tabby/Renderer/RenderCommand.h"
 
 #include <glm/gtc/matrix_transform.hpp> // for glm::translate
 
@@ -29,8 +29,7 @@ namespace Tabby {
 			   -0.5f, 0.5f, 0.0f, 0.0f, 1.0f
         };
 
-        Tabby::Ref<VertexBuffer> squareVB;
-        squareVB.reset(VertexBuffer::Create(squareVertices, sizeof(squareVertices)));
+        Ref<VertexBuffer> squareVB = VertexBuffer::Create(squareVertices, sizeof(squareVertices));
         squareVB->SetLayout({
                                 { ShaderDataType::Float3, "a_Position" },
 			                    { ShaderDataType::Float2, "a_TexCoord" }
@@ -39,8 +38,7 @@ namespace Tabby {
 
         uint32_t squareIndices[6] = {0, 1, 2, 2, 3, 0};
 
-        Ref <IndexBuffer> squareIB;
-        squareIB.reset(IndexBuffer::Create(squareIndices, sizeof(squareIndices) / sizeof(uint32_t)));
+        Ref<IndexBuffer> squareIB = IndexBuffer::Create(squareIndices, sizeof(squareIndices) / sizeof(uint32_t));
         s_Data->QuadVertexArray->SetIndexBuffer(squareIB);
 
         // Reset the shader
@@ -54,6 +52,9 @@ namespace Tabby {
     }
 
     void Renderer2D::Shutdown() {
+
+        TB_PROFILE_FUNCTION();
+
         delete s_Data;
     }
 
@@ -64,6 +65,9 @@ namespace Tabby {
     }
 
     void Renderer2D::EndScene() {
+
+        TB_PROFILE_FUNCTION();
+
     }
 
     void Renderer2D::DrawQuad(const glm::vec2 &position, const glm::vec2 &size, const glm::vec4 &color) {
@@ -72,6 +76,8 @@ namespace Tabby {
 
     void Renderer2D::DrawQuad(const glm::vec3 &position, const glm::vec2 &size, const glm::vec4 &color) {
         
+        TB_PROFILE_FUNCTION();
+
         s_Data->TextureShader->SetFloat4("u_Color", color);
 		s_Data->WhiteTexture->Bind();
 
@@ -88,6 +94,8 @@ namespace Tabby {
 
 	void Renderer2D::DrawQuad(const glm::vec3& position, const glm::vec2& size, const Ref<Texture2D>& texture){
 		
+        TB_PROFILE_FUNCTION();
+        
         s_Data->TextureShader->SetFloat4("u_Color", glm::vec4(1.0f));
 		texture->Bind();
 

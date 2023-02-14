@@ -1,10 +1,7 @@
 #include "tbpch.h"
-#include "LayerStack.h"
+#include "Tabby/Core/LayerStack.h"
 
 namespace Tabby {
-
-    LayerStack::LayerStack() {
-    }
 
     LayerStack::~LayerStack() {
         for (Layer *layer : m_Layers) {

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Texture.h"
-#include "OrthographicCamera.h"
+#include "Tabby/Renderer/Texture.h"
+#include "Tabby/Renderer/OrthographicCamera.h"
 
 namespace Tabby {
 

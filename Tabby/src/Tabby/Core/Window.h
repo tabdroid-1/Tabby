@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Core.h"
+#include "Tabby/Core/Core.h"
 #include "Tabby/Events/Event.h"
 #include "tbpch.h"
 
@@ -35,6 +35,6 @@ namespace Tabby {
 
         virtual void *GetNativeWindow() const = 0;
 
-        static Window *Create(const WindowProps &props = WindowProps());
+        static Scope<Window> Create(const WindowProps& props = WindowProps());
     };
 }

@@ -3,7 +3,7 @@
  // For use by Tabby applications
 
 #include "Tabby/Core/Core.h"
-#include "Tabby/Application.h"
+#include "Tabby/Core/Application.h"
 #include "Tabby/Core/Layer.h"
 #include "Tabby/Core/Log.h"
 
@@ -12,7 +12,7 @@
 #include "Tabby/Core/Input.h"
 #include "Tabby/Core/KeyCodes.h"
 #include "Tabby/Core/MouseButtonCodes.h"
-#include "Tabby/OrthographicCameraController.h"
+
 
 #include "Tabby/ImGui/ImGuiLayer.h"
 
@@ -27,4 +27,5 @@
 #include "Tabby/Renderer/VertexArray.h"
 
 #include "Tabby/Renderer/OrthographicCamera.h"
+#include "Tabby/Renderer/OrthographicCameraController.h"
 // ----------------------------------------

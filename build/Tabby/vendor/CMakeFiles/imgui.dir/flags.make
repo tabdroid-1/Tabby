@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/examples/example_glfw_opengl3 -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/GLFW/include
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
 
-CXX_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
+CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
 

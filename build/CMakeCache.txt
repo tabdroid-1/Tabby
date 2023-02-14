@@ -23,8 +23,9 @@ CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
-//Choose Release or Debug
-CMAKE_BUILD_TYPE:STRING=Release
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -313,6 +314,9 @@ Glad_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Glad_SOURCE_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad
+
+//No help, variable specified on the command line.
+HZ_BUILD_LINUX:UNINITIALIZED=ON
 
 //Build all artifacts
 SPDLOG_BUILD_ALL:BOOL=OFF

@@ -6,7 +6,7 @@ CXX_DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_LEVEL_NAME_CRITICAL=\"
 
 CXX_INCLUDES = -I/Users/tabby/Desktop/projects/C++/Tabby/Sandbox/assets -I/Users/tabby/Desktop/projects/C++/Tabby/Sandbox -I/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/src -I/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/Glad -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/GLFW/include -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/examples/example_glfw_opengl3
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
 
-CXX_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
+CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -w -std=gnu++17
 

@@ -6,7 +6,7 @@ CXX_DEFINES = -Dglm_shared_EXPORTS
 
 CXX_INCLUDES = -I/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -std=gnu++17
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -std=gnu++17
 
-CXX_FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -std=gnu++17
+CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -w -std=gnu++17
 

@@ -190,29 +190,245 @@ cmake_pch_arm64.hxx.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.s
 .PHONY : cmake_pch_arm64.hxx.s
 
-src/Tabby/Application.o: src/Tabby/Application.cpp.o
-.PHONY : src/Tabby/Application.o
+src/Platform/OSX/MacInput.o: src/Platform/OSX/MacInput.cpp.o
+.PHONY : src/Platform/OSX/MacInput.o
 
 # target to build an object file
-src/Tabby/Application.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Application.cpp.o
-.PHONY : src/Tabby/Application.cpp.o
+src/Platform/OSX/MacInput.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o
+.PHONY : src/Platform/OSX/MacInput.cpp.o
 
-src/Tabby/Application.i: src/Tabby/Application.cpp.i
-.PHONY : src/Tabby/Application.i
+src/Platform/OSX/MacInput.i: src/Platform/OSX/MacInput.cpp.i
+.PHONY : src/Platform/OSX/MacInput.i
 
 # target to preprocess a source file
-src/Tabby/Application.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Application.cpp.i
-.PHONY : src/Tabby/Application.cpp.i
+src/Platform/OSX/MacInput.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.i
+.PHONY : src/Platform/OSX/MacInput.cpp.i
 
-src/Tabby/Application.s: src/Tabby/Application.cpp.s
-.PHONY : src/Tabby/Application.s
+src/Platform/OSX/MacInput.s: src/Platform/OSX/MacInput.cpp.s
+.PHONY : src/Platform/OSX/MacInput.s
 
 # target to generate assembly for a file
-src/Tabby/Application.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Application.cpp.s
-.PHONY : src/Tabby/Application.cpp.s
+src/Platform/OSX/MacInput.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s
+.PHONY : src/Platform/OSX/MacInput.cpp.s
+
+src/Platform/OSX/MacWindow.o: src/Platform/OSX/MacWindow.cpp.o
+.PHONY : src/Platform/OSX/MacWindow.o
+
+# target to build an object file
+src/Platform/OSX/MacWindow.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o
+.PHONY : src/Platform/OSX/MacWindow.cpp.o
+
+src/Platform/OSX/MacWindow.i: src/Platform/OSX/MacWindow.cpp.i
+.PHONY : src/Platform/OSX/MacWindow.i
+
+# target to preprocess a source file
+src/Platform/OSX/MacWindow.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.i
+.PHONY : src/Platform/OSX/MacWindow.cpp.i
+
+src/Platform/OSX/MacWindow.s: src/Platform/OSX/MacWindow.cpp.s
+.PHONY : src/Platform/OSX/MacWindow.s
+
+# target to generate assembly for a file
+src/Platform/OSX/MacWindow.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.s
+.PHONY : src/Platform/OSX/MacWindow.cpp.s
+
+src/Platform/OpenGL/OpenGLBuffer.o: src/Platform/OpenGL/OpenGLBuffer.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLBuffer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.cpp.o
+
+src/Platform/OpenGL/OpenGLBuffer.i: src/Platform/OpenGL/OpenGLBuffer.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLBuffer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.cpp.i
+
+src/Platform/OpenGL/OpenGLBuffer.s: src/Platform/OpenGL/OpenGLBuffer.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLBuffer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLBuffer.cpp.s
+
+src/Platform/OpenGL/OpenGLContext.o: src/Platform/OpenGL/OpenGLContext.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLContext.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLContext.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLContext.cpp.o
+
+src/Platform/OpenGL/OpenGLContext.i: src/Platform/OpenGL/OpenGLContext.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLContext.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLContext.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLContext.cpp.i
+
+src/Platform/OpenGL/OpenGLContext.s: src/Platform/OpenGL/OpenGLContext.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLContext.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLContext.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLContext.cpp.s
+
+src/Platform/OpenGL/OpenGLRendererAPI.o: src/Platform/OpenGL/OpenGLRendererAPI.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLRendererAPI.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.cpp.o
+
+src/Platform/OpenGL/OpenGLRendererAPI.i: src/Platform/OpenGL/OpenGLRendererAPI.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLRendererAPI.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.cpp.i
+
+src/Platform/OpenGL/OpenGLRendererAPI.s: src/Platform/OpenGL/OpenGLRendererAPI.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLRendererAPI.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLRendererAPI.cpp.s
+
+src/Platform/OpenGL/OpenGLShader.o: src/Platform/OpenGL/OpenGLShader.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLShader.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLShader.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLShader.cpp.o
+
+src/Platform/OpenGL/OpenGLShader.i: src/Platform/OpenGL/OpenGLShader.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLShader.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLShader.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLShader.cpp.i
+
+src/Platform/OpenGL/OpenGLShader.s: src/Platform/OpenGL/OpenGLShader.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLShader.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLShader.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLShader.cpp.s
+
+src/Platform/OpenGL/OpenGLTexture.o: src/Platform/OpenGL/OpenGLTexture.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLTexture.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLTexture.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLTexture.cpp.o
+
+src/Platform/OpenGL/OpenGLTexture.i: src/Platform/OpenGL/OpenGLTexture.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLTexture.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLTexture.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLTexture.cpp.i
+
+src/Platform/OpenGL/OpenGLTexture.s: src/Platform/OpenGL/OpenGLTexture.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLTexture.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLTexture.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLTexture.cpp.s
+
+src/Platform/OpenGL/OpenGLVertexArray.o: src/Platform/OpenGL/OpenGLVertexArray.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLVertexArray.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.cpp.o
+
+src/Platform/OpenGL/OpenGLVertexArray.i: src/Platform/OpenGL/OpenGLVertexArray.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLVertexArray.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.cpp.i
+
+src/Platform/OpenGL/OpenGLVertexArray.s: src/Platform/OpenGL/OpenGLVertexArray.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLVertexArray.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLVertexArray.cpp.s
+
+src/Platform/WindowsWindow/WindowsWindow.o: src/Platform/WindowsWindow/WindowsWindow.cpp.o
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.o
+
+# target to build an object file
+src/Platform/WindowsWindow/WindowsWindow.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.cpp.o
+
+src/Platform/WindowsWindow/WindowsWindow.i: src/Platform/WindowsWindow/WindowsWindow.cpp.i
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.i
+
+# target to preprocess a source file
+src/Platform/WindowsWindow/WindowsWindow.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.i
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.cpp.i
+
+src/Platform/WindowsWindow/WindowsWindow.s: src/Platform/WindowsWindow/WindowsWindow.cpp.s
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.s
+
+# target to generate assembly for a file
+src/Platform/WindowsWindow/WindowsWindow.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.s
+.PHONY : src/Platform/WindowsWindow/WindowsWindow.cpp.s
+
+src/Tabby/Core/Application.o: src/Tabby/Core/Application.cpp.o
+.PHONY : src/Tabby/Core/Application.o
+
+# target to build an object file
+src/Tabby/Core/Application.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o
+.PHONY : src/Tabby/Core/Application.cpp.o
+
+src/Tabby/Core/Application.i: src/Tabby/Core/Application.cpp.i
+.PHONY : src/Tabby/Core/Application.i
+
+# target to preprocess a source file
+src/Tabby/Core/Application.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.i
+.PHONY : src/Tabby/Core/Application.cpp.i
+
+src/Tabby/Core/Application.s: src/Tabby/Core/Application.cpp.s
+.PHONY : src/Tabby/Core/Application.s
+
+# target to generate assembly for a file
+src/Tabby/Core/Application.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.s
+.PHONY : src/Tabby/Core/Application.cpp.s
 
 src/Tabby/Core/Layer.o: src/Tabby/Core/Layer.cpp.o
 .PHONY : src/Tabby/Core/Layer.o
@@ -334,246 +550,6 @@ src/Tabby/ImGui/ImGuiLayer.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.s
 .PHONY : src/Tabby/ImGui/ImGuiLayer.cpp.s
 
-src/Tabby/OrthographicCameraController.o: src/Tabby/OrthographicCameraController.cpp.o
-.PHONY : src/Tabby/OrthographicCameraController.o
-
-# target to build an object file
-src/Tabby/OrthographicCameraController.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/OrthographicCameraController.cpp.o
-.PHONY : src/Tabby/OrthographicCameraController.cpp.o
-
-src/Tabby/OrthographicCameraController.i: src/Tabby/OrthographicCameraController.cpp.i
-.PHONY : src/Tabby/OrthographicCameraController.i
-
-# target to preprocess a source file
-src/Tabby/OrthographicCameraController.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/OrthographicCameraController.cpp.i
-.PHONY : src/Tabby/OrthographicCameraController.cpp.i
-
-src/Tabby/OrthographicCameraController.s: src/Tabby/OrthographicCameraController.cpp.s
-.PHONY : src/Tabby/OrthographicCameraController.s
-
-# target to generate assembly for a file
-src/Tabby/OrthographicCameraController.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/OrthographicCameraController.cpp.s
-.PHONY : src/Tabby/OrthographicCameraController.cpp.s
-
-src/Tabby/Platform/OSX/MacInput.o: src/Tabby/Platform/OSX/MacInput.cpp.o
-.PHONY : src/Tabby/Platform/OSX/MacInput.o
-
-# target to build an object file
-src/Tabby/Platform/OSX/MacInput.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacInput.cpp.o
-.PHONY : src/Tabby/Platform/OSX/MacInput.cpp.o
-
-src/Tabby/Platform/OSX/MacInput.i: src/Tabby/Platform/OSX/MacInput.cpp.i
-.PHONY : src/Tabby/Platform/OSX/MacInput.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OSX/MacInput.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacInput.cpp.i
-.PHONY : src/Tabby/Platform/OSX/MacInput.cpp.i
-
-src/Tabby/Platform/OSX/MacInput.s: src/Tabby/Platform/OSX/MacInput.cpp.s
-.PHONY : src/Tabby/Platform/OSX/MacInput.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OSX/MacInput.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacInput.cpp.s
-.PHONY : src/Tabby/Platform/OSX/MacInput.cpp.s
-
-src/Tabby/Platform/OSX/MacWindow.o: src/Tabby/Platform/OSX/MacWindow.cpp.o
-.PHONY : src/Tabby/Platform/OSX/MacWindow.o
-
-# target to build an object file
-src/Tabby/Platform/OSX/MacWindow.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacWindow.cpp.o
-.PHONY : src/Tabby/Platform/OSX/MacWindow.cpp.o
-
-src/Tabby/Platform/OSX/MacWindow.i: src/Tabby/Platform/OSX/MacWindow.cpp.i
-.PHONY : src/Tabby/Platform/OSX/MacWindow.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OSX/MacWindow.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacWindow.cpp.i
-.PHONY : src/Tabby/Platform/OSX/MacWindow.cpp.i
-
-src/Tabby/Platform/OSX/MacWindow.s: src/Tabby/Platform/OSX/MacWindow.cpp.s
-.PHONY : src/Tabby/Platform/OSX/MacWindow.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OSX/MacWindow.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OSX/MacWindow.cpp.s
-.PHONY : src/Tabby/Platform/OSX/MacWindow.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLBuffer.o: src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLBuffer.i: src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLBuffer.s: src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLBuffer.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLContext.o: src/Tabby/Platform/OpenGL/OpenGLContext.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLContext.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLContext.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLContext.i: src/Tabby/Platform/OpenGL/OpenGLContext.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLContext.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLContext.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLContext.s: src/Tabby/Platform/OpenGL/OpenGLContext.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLContext.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLContext.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLContext.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.o: src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.i: src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.s: src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLRendererAPI.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLShader.o: src/Tabby/Platform/OpenGL/OpenGLShader.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLShader.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLShader.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLShader.i: src/Tabby/Platform/OpenGL/OpenGLShader.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLShader.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLShader.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLShader.s: src/Tabby/Platform/OpenGL/OpenGLShader.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLShader.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLShader.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLShader.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLTexture.o: src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLTexture.i: src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLTexture.s: src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLTexture.cpp.s
-
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.o: src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.o
-
-# target to build an object file
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.o
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.o
-
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.i: src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.i
-
-# target to preprocess a source file
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.i
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.i
-
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.s: src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.s
-.PHONY : src/Tabby/Platform/OpenGL/OpenGLVertexArray.cpp.s
-
-src/Tabby/Platform/WindowsWindow/WindowsWindow.o: src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.o
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.o
-
-# target to build an object file
-src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.o
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.o
-
-src/Tabby/Platform/WindowsWindow/WindowsWindow.i: src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.i
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.i
-
-# target to preprocess a source file
-src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.i
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.i
-
-src/Tabby/Platform/WindowsWindow/WindowsWindow.s: src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.s
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.s
-
-# target to generate assembly for a file
-src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.s
-.PHONY : src/Tabby/Platform/WindowsWindow/WindowsWindow.cpp.s
-
 src/Tabby/Renderer/Buffer.o: src/Tabby/Renderer/Buffer.cpp.o
 .PHONY : src/Tabby/Renderer/Buffer.o
 
@@ -598,6 +574,30 @@ src/Tabby/Renderer/Buffer.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.s
 .PHONY : src/Tabby/Renderer/Buffer.cpp.s
 
+src/Tabby/Renderer/GraphicsContext.o: src/Tabby/Renderer/GraphicsContext.cpp.o
+.PHONY : src/Tabby/Renderer/GraphicsContext.o
+
+# target to build an object file
+src/Tabby/Renderer/GraphicsContext.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o
+.PHONY : src/Tabby/Renderer/GraphicsContext.cpp.o
+
+src/Tabby/Renderer/GraphicsContext.i: src/Tabby/Renderer/GraphicsContext.cpp.i
+.PHONY : src/Tabby/Renderer/GraphicsContext.i
+
+# target to preprocess a source file
+src/Tabby/Renderer/GraphicsContext.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.i
+.PHONY : src/Tabby/Renderer/GraphicsContext.cpp.i
+
+src/Tabby/Renderer/GraphicsContext.s: src/Tabby/Renderer/GraphicsContext.cpp.s
+.PHONY : src/Tabby/Renderer/GraphicsContext.s
+
+# target to generate assembly for a file
+src/Tabby/Renderer/GraphicsContext.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.s
+.PHONY : src/Tabby/Renderer/GraphicsContext.cpp.s
+
 src/Tabby/Renderer/OrthographicCamera.o: src/Tabby/Renderer/OrthographicCamera.cpp.o
 .PHONY : src/Tabby/Renderer/OrthographicCamera.o
 
@@ -621,6 +621,30 @@ src/Tabby/Renderer/OrthographicCamera.s: src/Tabby/Renderer/OrthographicCamera.c
 src/Tabby/Renderer/OrthographicCamera.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.s
 .PHONY : src/Tabby/Renderer/OrthographicCamera.cpp.s
+
+src/Tabby/Renderer/OrthographicCameraController.o: src/Tabby/Renderer/OrthographicCameraController.cpp.o
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.o
+
+# target to build an object file
+src/Tabby/Renderer/OrthographicCameraController.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.cpp.o
+
+src/Tabby/Renderer/OrthographicCameraController.i: src/Tabby/Renderer/OrthographicCameraController.cpp.i
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.i
+
+# target to preprocess a source file
+src/Tabby/Renderer/OrthographicCameraController.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.i
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.cpp.i
+
+src/Tabby/Renderer/OrthographicCameraController.s: src/Tabby/Renderer/OrthographicCameraController.cpp.s
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.s
+
+# target to generate assembly for a file
+src/Tabby/Renderer/OrthographicCameraController.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.s
+.PHONY : src/Tabby/Renderer/OrthographicCameraController.cpp.s
 
 src/Tabby/Renderer/RenderCommand.o: src/Tabby/Renderer/RenderCommand.cpp.o
 .PHONY : src/Tabby/Renderer/RenderCommand.o
@@ -974,9 +998,36 @@ help:
 	@echo "... cmake_pch_arm64.hxx.pch"
 	@echo "... cmake_pch_arm64.hxx.i"
 	@echo "... cmake_pch_arm64.hxx.s"
-	@echo "... src/Tabby/Application.o"
-	@echo "... src/Tabby/Application.i"
-	@echo "... src/Tabby/Application.s"
+	@echo "... src/Platform/OSX/MacInput.o"
+	@echo "... src/Platform/OSX/MacInput.i"
+	@echo "... src/Platform/OSX/MacInput.s"
+	@echo "... src/Platform/OSX/MacWindow.o"
+	@echo "... src/Platform/OSX/MacWindow.i"
+	@echo "... src/Platform/OSX/MacWindow.s"
+	@echo "... src/Platform/OpenGL/OpenGLBuffer.o"
+	@echo "... src/Platform/OpenGL/OpenGLBuffer.i"
+	@echo "... src/Platform/OpenGL/OpenGLBuffer.s"
+	@echo "... src/Platform/OpenGL/OpenGLContext.o"
+	@echo "... src/Platform/OpenGL/OpenGLContext.i"
+	@echo "... src/Platform/OpenGL/OpenGLContext.s"
+	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.o"
+	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.i"
+	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.s"
+	@echo "... src/Platform/OpenGL/OpenGLShader.o"
+	@echo "... src/Platform/OpenGL/OpenGLShader.i"
+	@echo "... src/Platform/OpenGL/OpenGLShader.s"
+	@echo "... src/Platform/OpenGL/OpenGLTexture.o"
+	@echo "... src/Platform/OpenGL/OpenGLTexture.i"
+	@echo "... src/Platform/OpenGL/OpenGLTexture.s"
+	@echo "... src/Platform/OpenGL/OpenGLVertexArray.o"
+	@echo "... src/Platform/OpenGL/OpenGLVertexArray.i"
+	@echo "... src/Platform/OpenGL/OpenGLVertexArray.s"
+	@echo "... src/Platform/WindowsWindow/WindowsWindow.o"
+	@echo "... src/Platform/WindowsWindow/WindowsWindow.i"
+	@echo "... src/Platform/WindowsWindow/WindowsWindow.s"
+	@echo "... src/Tabby/Core/Application.o"
+	@echo "... src/Tabby/Core/Application.i"
+	@echo "... src/Tabby/Core/Application.s"
 	@echo "... src/Tabby/Core/Layer.o"
 	@echo "... src/Tabby/Core/Layer.i"
 	@echo "... src/Tabby/Core/Layer.s"
@@ -992,42 +1043,18 @@ help:
 	@echo "... src/Tabby/ImGui/ImGuiLayer.o"
 	@echo "... src/Tabby/ImGui/ImGuiLayer.i"
 	@echo "... src/Tabby/ImGui/ImGuiLayer.s"
-	@echo "... src/Tabby/OrthographicCameraController.o"
-	@echo "... src/Tabby/OrthographicCameraController.i"
-	@echo "... src/Tabby/OrthographicCameraController.s"
-	@echo "... src/Tabby/Platform/OSX/MacInput.o"
-	@echo "... src/Tabby/Platform/OSX/MacInput.i"
-	@echo "... src/Tabby/Platform/OSX/MacInput.s"
-	@echo "... src/Tabby/Platform/OSX/MacWindow.o"
-	@echo "... src/Tabby/Platform/OSX/MacWindow.i"
-	@echo "... src/Tabby/Platform/OSX/MacWindow.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLBuffer.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLBuffer.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLBuffer.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLContext.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLContext.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLContext.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLRendererAPI.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLRendererAPI.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLRendererAPI.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLShader.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLShader.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLShader.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLTexture.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLTexture.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLTexture.s"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLVertexArray.o"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLVertexArray.i"
-	@echo "... src/Tabby/Platform/OpenGL/OpenGLVertexArray.s"
-	@echo "... src/Tabby/Platform/WindowsWindow/WindowsWindow.o"
-	@echo "... src/Tabby/Platform/WindowsWindow/WindowsWindow.i"
-	@echo "... src/Tabby/Platform/WindowsWindow/WindowsWindow.s"
 	@echo "... src/Tabby/Renderer/Buffer.o"
 	@echo "... src/Tabby/Renderer/Buffer.i"
 	@echo "... src/Tabby/Renderer/Buffer.s"
+	@echo "... src/Tabby/Renderer/GraphicsContext.o"
+	@echo "... src/Tabby/Renderer/GraphicsContext.i"
+	@echo "... src/Tabby/Renderer/GraphicsContext.s"
 	@echo "... src/Tabby/Renderer/OrthographicCamera.o"
 	@echo "... src/Tabby/Renderer/OrthographicCamera.i"
 	@echo "... src/Tabby/Renderer/OrthographicCamera.s"
+	@echo "... src/Tabby/Renderer/OrthographicCameraController.o"
+	@echo "... src/Tabby/Renderer/OrthographicCameraController.i"
+	@echo "... src/Tabby/Renderer/OrthographicCameraController.s"
 	@echo "... src/Tabby/Renderer/RenderCommand.o"
 	@echo "... src/Tabby/Renderer/RenderCommand.i"
 	@echo "... src/Tabby/Renderer/RenderCommand.s"

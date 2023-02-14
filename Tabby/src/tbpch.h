@@ -17,6 +17,8 @@
 
 #include "Tabby/Core/Log.h"
 
+#include "Tabby/Debug/Instrumentor.h"
+
 #ifdef TB_PLATFORM_WINDOWS
 #include <Windows.h>
 #endif
