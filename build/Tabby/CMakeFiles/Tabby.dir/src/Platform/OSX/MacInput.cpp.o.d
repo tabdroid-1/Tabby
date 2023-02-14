@@ -458,6 +458,8 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.cpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \

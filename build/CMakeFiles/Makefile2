@@ -264,7 +264,7 @@ Tabby/CMakeFiles/Tabby.dir/clean:
 Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target glfw"
 .PHONY : Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +290,7 @@ Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/clean:
 Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72 "Built target spdlog"
 .PHONY : Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,7 +368,7 @@ Tabby/vendor/glm/CMakeFiles/uninstall.dir/clean:
 Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/all:
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/build.make Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/build.make Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=57,58 "Built target glm_shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=58,59 "Built target glm_shared"
 .PHONY : Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,7 +394,7 @@ Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/clean:
 Tabby/vendor/CMakeFiles/imgui.dir/all:
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/CMakeFiles/imgui.dir/build.make Tabby/vendor/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tabby/vendor/CMakeFiles/imgui.dir/build.make Tabby/vendor/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=59,60,61,62,63 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=60,61,62,63,64 "Built target imgui"
 .PHONY : Tabby/vendor/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,12 +425,12 @@ Sandbox/CMakeFiles/TabbySandbox.dir/all: Tabby/vendor/CMakeFiles/imgui.dir/all
 Sandbox/CMakeFiles/TabbySandbox.dir/all: Sandbox/CMakeFiles/copy_assets.dir/all
 	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/TabbySandbox.dir/build.make Sandbox/CMakeFiles/TabbySandbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/TabbySandbox.dir/build.make Sandbox/CMakeFiles/TabbySandbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=38,39,40 "Built target TabbySandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=38,39,40,41 "Built target TabbySandbox"
 .PHONY : Sandbox/CMakeFiles/TabbySandbox.dir/all
 
 # Build rule for subdir invocation for target.
 Sandbox/CMakeFiles/TabbySandbox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles 70
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/TabbySandbox.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles 0
 .PHONY : Sandbox/CMakeFiles/TabbySandbox.dir/rule

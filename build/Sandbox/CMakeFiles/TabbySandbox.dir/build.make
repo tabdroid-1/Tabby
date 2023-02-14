@@ -69,10 +69,24 @@ include Sandbox/CMakeFiles/TabbySandbox.dir/progress.make
 # Include the compile flags for this target's objects.
 include Sandbox/CMakeFiles/TabbySandbox.dir/flags.make
 
+Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/flags.make
+Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/ExampleLayer.cpp
+Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o -MF CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o.d -o CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/ExampleLayer.cpp
+
+Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.i"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/ExampleLayer.cpp > CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.i
+
+Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.s"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/ExampleLayer.cpp -o CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.s
+
 Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/flags.make
 Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.cpp
 Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o -MF CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o.d -o CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.cpp
 
 Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.i: cmake_force
@@ -86,7 +100,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.s: cmake_force
 Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/flags.make
 Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/SandboxApp.cpp
 Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: Sandbox/CMakeFiles/TabbySandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o -MF CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o.d -o CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/SandboxApp.cpp
 
 Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.i: cmake_force
@@ -99,12 +113,14 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.s: cmake_force
 
 # Object files for target TabbySandbox
 TabbySandbox_OBJECTS = \
+"CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o" \
 "CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o" \
 "CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o"
 
 # External object files for target TabbySandbox
 TabbySandbox_EXTERNAL_OBJECTS =
 
+Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/build.make
@@ -114,7 +130,7 @@ Sandbox/TabbySandbox: Tabby/vendor/Glad/libGlad.dylib
 Sandbox/TabbySandbox: Tabby/vendor/GLFW/src/libglfw.3.4.dylib
 Sandbox/TabbySandbox: Tabby/vendor/libimgui.a
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TabbySandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TabbySandbox"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TabbySandbox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

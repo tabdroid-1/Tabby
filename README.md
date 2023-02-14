@@ -11,7 +11,7 @@ git clone --recursive https://github.com/joeletho/Hazel ~/dev/Hazel &&
 mkdir ~/dev/Hazel/build && cd ~/dev/Hazel/build && 
 cmake ../ && cmake --build ./ && ./SandboxApp
 ```
-
+debug = cmake -DCMAKE_BUILD_TYPE=Debug ..
 ### Camera controls
 **W** - up 
 

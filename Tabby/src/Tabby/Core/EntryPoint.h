@@ -1,9 +1,12 @@
 #pragma once
 
-int main(int argc, char **argv) {
-    Tabby::Log::Init();
-    TB_PROFILE_BEGIN_SESSION("Startup", "TabbyProfile-Startup.json");
+#include "Tabby/Core/Application.h"
 
+int main(int argc, char **argv) {
+
+    Tabby::Log::Init();
+
+    TB_PROFILE_BEGIN_SESSION("Startup", "TabbyProfile-Startup.json");
     auto app = Tabby::CreateApplication();
     TB_PROFILE_END_SESSION();
 

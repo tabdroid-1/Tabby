@@ -189,6 +189,30 @@ copy_assets/fast:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets.dir/build.make Sandbox/CMakeFiles/copy_assets.dir/build
 .PHONY : copy_assets/fast
 
+src/ExampleLayer.o: src/ExampleLayer.cpp.o
+.PHONY : src/ExampleLayer.o
+
+# target to build an object file
+src/ExampleLayer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/TabbySandbox.dir/build.make Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o
+.PHONY : src/ExampleLayer.cpp.o
+
+src/ExampleLayer.i: src/ExampleLayer.cpp.i
+.PHONY : src/ExampleLayer.i
+
+# target to preprocess a source file
+src/ExampleLayer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/TabbySandbox.dir/build.make Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.i
+.PHONY : src/ExampleLayer.cpp.i
+
+src/ExampleLayer.s: src/ExampleLayer.cpp.s
+.PHONY : src/ExampleLayer.s
+
+# target to generate assembly for a file
+src/ExampleLayer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/TabbySandbox.dir/build.make Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.s
+.PHONY : src/ExampleLayer.cpp.s
+
 src/Sandbox2D.o: src/Sandbox2D.cpp.o
 .PHONY : src/Sandbox2D.o
 
@@ -251,6 +275,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... copy_assets"
 	@echo "... TabbySandbox"
+	@echo "... src/ExampleLayer.o"
+	@echo "... src/ExampleLayer.i"
+	@echo "... src/ExampleLayer.s"
 	@echo "... src/Sandbox2D.o"
 	@echo "... src/Sandbox2D.i"
 	@echo "... src/Sandbox2D.s"

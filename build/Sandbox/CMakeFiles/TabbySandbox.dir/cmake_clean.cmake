@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o"
+  "CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o.d"
   "CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o"
   "CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o.d"
   "CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o"

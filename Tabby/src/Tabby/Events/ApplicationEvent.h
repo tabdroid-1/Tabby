@@ -10,7 +10,6 @@ namespace Tabby {
                 : m_Width(width), m_Height(height) {}
 
         inline float GetWidth() const { return m_Width; }
-
         inline float GetHeight() const { return m_Height; }
 
         std::string ToString() const override {

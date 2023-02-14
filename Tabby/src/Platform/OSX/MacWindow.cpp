@@ -3,17 +3,14 @@
 #include "tbpch.h"
 #include "Platform/OSX/MacWindow.h"
 
-#include "Tabby/Core/Log.h"
+#include "Tabby/Core/Input.h"
 
 #include "Tabby/Events/ApplicationEvent.h"
 #include "Tabby/Events/MouseEvent.h"
 #include "Tabby/Events/KeyEvent.h"
 
-#include "Tabby/Renderer/GraphicsContext.h"
-
+#include "Tabby/Renderer/Renderer.h"
 #include "Platform/OpenGL/OpenGLContext.h"
-
-#include <GLFW/glfw3.h>
 
 namespace Tabby {
 
@@ -70,6 +67,10 @@ namespace Tabby {
 
         {
 			TB_PROFILE_SCOPE("glfwCreateWindow");
+        #if defined(TB_DEBUG)
+			if (Renderer::GetAPI() == RendererAPI::API::OpenGL)
+				glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
+		#endif
 			m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
 			++s_GLFWWindowCount;
 		}
@@ -102,17 +103,17 @@ namespace Tabby {
 
             switch (action) {
                 case GLFW_PRESS: {
-                    KeyPressedEvent event(key, 0);
+                    KeyPressedEvent event(static_cast<KeyCode>(key), 0);
                     data.EventCallback(event);
                     break;
                 }
                 case GLFW_RELEASE: {
-                    KeyReleasedEvent event(key);
+                    KeyReleasedEvent event(static_cast<KeyCode>(key));
                     data.EventCallback(event);
                     break;
                 }
                 case GLFW_REPEAT: {
-                    KeyPressedEvent event(key, 1);
+                    KeyPressedEvent event(static_cast<KeyCode>(key), 1);
                     data.EventCallback(event);
                     break;
                 }
@@ -122,7 +123,7 @@ namespace Tabby {
         glfwSetCharCallback(m_Window, [](GLFWwindow *window, unsigned int keycode) {
             WindowData &data = *(WindowData *) glfwGetWindowUserPointer(window);
 
-            KeyTypedEvent event(keycode);
+            KeyTypedEvent event(static_cast<KeyCode>(keycode));
             data.EventCallback(event);
         });
 
@@ -131,12 +132,12 @@ namespace Tabby {
 
             switch (action) {
                 case GLFW_PRESS: {
-                    MouseButtonPressedEvent event(button);
+                    MouseButtonPressedEvent event(static_cast<MouseCode>(button));
                     data.EventCallback(event);
                     break;
                 }
                 case GLFW_RELEASE: {
-                    MouseButtonReleasedEvent event(button);
+                    MouseButtonReleasedEvent event(static_cast<MouseCode>(button));
                     data.EventCallback(event);
                     break;
                 }

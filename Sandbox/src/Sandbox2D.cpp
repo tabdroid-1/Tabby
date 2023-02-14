@@ -23,22 +23,14 @@ void Sandbox2D::OnDetach() {
 }
 
 void Sandbox2D::OnUpdate(Tabby::Timestep ts) {
-    // // Update
-    // m_CameraSpeed = ts * 0.15;
-    // m_CameraController.OnUpdate(m_CameraSpeed);
-
-    // // Render
-    // Tabby::RenderCommand::SetClearColor({0.1f, 0.1f, 0.1f, 1}); // Background color
-    // Tabby::RenderCommand::Clear();
-
-    // Tabby::Renderer2D::BeginScene(m_CameraController.GetCamera());
-    // Tabby::Renderer2D::DrawQuad({-1.0f, 0.0f}, {0.8f, 0.8f}, {0.8f, 0.2f, 0.3f, 1.0f});
-    // Tabby::Renderer2D::DrawQuad({0.5f, -0.5f}, {0.5f, 0.75f}, {0.2f, 0.3f, 0.8f, 1.0f});
-    // Tabby::Renderer2D::EndScene();
 
     TB_PROFILE_FUNCTION();
 
-	m_CameraController.OnUpdate(ts);
+	// Update
+	{
+		TB_PROFILE_SCOPE("CameraController::OnUpdate");
+		m_CameraController.OnUpdate(ts);
+	}
 
 	{
 		TB_PROFILE_SCOPE("Renderer Prep");
@@ -54,10 +46,6 @@ void Sandbox2D::OnUpdate(Tabby::Timestep ts) {
 		Tabby::Renderer2D::DrawQuad({ 0.0f, 0.0f, -0.1f }, { 10.0f, 10.0f }, m_CheckerboardTexture);
 		Tabby::Renderer2D::EndScene();
 	}
-
-	// TODO: Add these functions - Shader::SetMat4, Shader::SetFloat4
-	// std::dynamic_pointer_cast<Tabby::OpenGLShader>(m_FlatColorShader)->Bind();
-	// std::dynamic_pointer_cast<Tabby::OpenGLShader>(m_FlatColorShader)->UploadUniformFloat4("u_Color", m_SquareColor);
 }
 
 void Sandbox2D::OnImGuiRender() {

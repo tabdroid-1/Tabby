@@ -2,7 +2,7 @@
 
 #include "Tabby/Core/Input.h"
 #include "Tabby/Core/KeyCodes.h"
-#include "Tabby/Core/MouseButtonCodes.h"
+#include "Tabby/Core/MouseCodes.h"
 
 namespace Tabby {
 

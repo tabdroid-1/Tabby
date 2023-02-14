@@ -9,17 +9,17 @@ namespace Tabby {
 
     Scope<Input> Input::s_Instance = CreateScope<MacInput>();
 
-    bool MacInput::IsKeyPressedImpl(int keycode) {
+    bool MacInput::IsKeyPressedImpl(KeyCode key) {
         auto window = static_cast<GLFWwindow *>(Application::Get().GetWindow().GetNativeWindow());
-        auto state = glfwGetKey(window, keycode);
+        auto state = glfwGetKey(window, static_cast<int32_t>(key));
 
         // Check if this key is currently pressed
         return state == GLFW_PRESS || state == GLFW_REPEAT;
     }
 
-    bool MacInput::IsMouseButtonImpl(const int button) {
+    bool MacInput::IsMouseButtonPressedImpl(MouseCode button) {
         auto window = static_cast<GLFWwindow *>(Application::Get().GetWindow().GetNativeWindow());
-        auto state = glfwGetMouseButton(window, button);
+        auto state = glfwGetMouseButton(window, static_cast<int32_t>(button));
 
         return state == GLFW_PRESS;
     }
