@@ -20,6 +20,8 @@ CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/Ma
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
+# PCH options: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
@@ -32,17 +34,25 @@ CXX_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/Ma
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
+# PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
+# PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+
+# PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+
+# PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 
 # PCH options: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o_OPTIONS = -Winvalid-pch;;-Xarch_arm64;-include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 

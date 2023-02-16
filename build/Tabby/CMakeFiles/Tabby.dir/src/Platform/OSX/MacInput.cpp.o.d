@@ -429,7 +429,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Core.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Base.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
@@ -463,10 +463,10 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/ApplicationEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Timestep.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/ApplicationEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/ImGui/ImGuiLayer.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/MouseEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \

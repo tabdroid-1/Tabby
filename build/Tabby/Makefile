@@ -286,6 +286,30 @@ src/Platform/OpenGL/OpenGLContext.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.s
 .PHONY : src/Platform/OpenGL/OpenGLContext.cpp.s
 
+src/Platform/OpenGL/OpenGLFramebuffer.o: src/Platform/OpenGL/OpenGLFramebuffer.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.o
+
+# target to build an object file
+src/Platform/OpenGL/OpenGLFramebuffer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.cpp.o
+
+src/Platform/OpenGL/OpenGLFramebuffer.i: src/Platform/OpenGL/OpenGLFramebuffer.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.i
+
+# target to preprocess a source file
+src/Platform/OpenGL/OpenGLFramebuffer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.i
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.cpp.i
+
+src/Platform/OpenGL/OpenGLFramebuffer.s: src/Platform/OpenGL/OpenGLFramebuffer.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.s
+
+# target to generate assembly for a file
+src/Platform/OpenGL/OpenGLFramebuffer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.s
+.PHONY : src/Platform/OpenGL/OpenGLFramebuffer.cpp.s
+
 src/Platform/OpenGL/OpenGLRendererAPI.o: src/Platform/OpenGL/OpenGLRendererAPI.cpp.o
 .PHONY : src/Platform/OpenGL/OpenGLRendererAPI.o
 
@@ -430,6 +454,30 @@ src/Tabby/Core/Application.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.s
 .PHONY : src/Tabby/Core/Application.cpp.s
 
+src/Tabby/Core/Input.o: src/Tabby/Core/Input.cpp.o
+.PHONY : src/Tabby/Core/Input.o
+
+# target to build an object file
+src/Tabby/Core/Input.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.o
+.PHONY : src/Tabby/Core/Input.cpp.o
+
+src/Tabby/Core/Input.i: src/Tabby/Core/Input.cpp.i
+.PHONY : src/Tabby/Core/Input.i
+
+# target to preprocess a source file
+src/Tabby/Core/Input.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.i
+.PHONY : src/Tabby/Core/Input.cpp.i
+
+src/Tabby/Core/Input.s: src/Tabby/Core/Input.cpp.s
+.PHONY : src/Tabby/Core/Input.s
+
+# target to generate assembly for a file
+src/Tabby/Core/Input.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.s
+.PHONY : src/Tabby/Core/Input.cpp.s
+
 src/Tabby/Core/Layer.o: src/Tabby/Core/Layer.cpp.o
 .PHONY : src/Tabby/Core/Layer.o
 
@@ -502,6 +550,30 @@ src/Tabby/Core/Log.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.s
 .PHONY : src/Tabby/Core/Log.cpp.s
 
+src/Tabby/Core/Window.o: src/Tabby/Core/Window.cpp.o
+.PHONY : src/Tabby/Core/Window.o
+
+# target to build an object file
+src/Tabby/Core/Window.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o
+.PHONY : src/Tabby/Core/Window.cpp.o
+
+src/Tabby/Core/Window.i: src/Tabby/Core/Window.cpp.i
+.PHONY : src/Tabby/Core/Window.i
+
+# target to preprocess a source file
+src/Tabby/Core/Window.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.i
+.PHONY : src/Tabby/Core/Window.cpp.i
+
+src/Tabby/Core/Window.s: src/Tabby/Core/Window.cpp.s
+.PHONY : src/Tabby/Core/Window.s
+
+# target to generate assembly for a file
+src/Tabby/Core/Window.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.s
+.PHONY : src/Tabby/Core/Window.cpp.s
+
 src/Tabby/ImGui/ImGuiBuild.o: src/Tabby/ImGui/ImGuiBuild.cpp.o
 .PHONY : src/Tabby/ImGui/ImGuiBuild.o
 
@@ -573,6 +645,54 @@ src/Tabby/Renderer/Buffer.s: src/Tabby/Renderer/Buffer.cpp.s
 src/Tabby/Renderer/Buffer.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.s
 .PHONY : src/Tabby/Renderer/Buffer.cpp.s
+
+src/Tabby/Renderer/EditorCamera.o: src/Tabby/Renderer/EditorCamera.cpp.o
+.PHONY : src/Tabby/Renderer/EditorCamera.o
+
+# target to build an object file
+src/Tabby/Renderer/EditorCamera.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o
+.PHONY : src/Tabby/Renderer/EditorCamera.cpp.o
+
+src/Tabby/Renderer/EditorCamera.i: src/Tabby/Renderer/EditorCamera.cpp.i
+.PHONY : src/Tabby/Renderer/EditorCamera.i
+
+# target to preprocess a source file
+src/Tabby/Renderer/EditorCamera.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.i
+.PHONY : src/Tabby/Renderer/EditorCamera.cpp.i
+
+src/Tabby/Renderer/EditorCamera.s: src/Tabby/Renderer/EditorCamera.cpp.s
+.PHONY : src/Tabby/Renderer/EditorCamera.s
+
+# target to generate assembly for a file
+src/Tabby/Renderer/EditorCamera.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.s
+.PHONY : src/Tabby/Renderer/EditorCamera.cpp.s
+
+src/Tabby/Renderer/FrameBuffer.o: src/Tabby/Renderer/FrameBuffer.cpp.o
+.PHONY : src/Tabby/Renderer/FrameBuffer.o
+
+# target to build an object file
+src/Tabby/Renderer/FrameBuffer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o
+.PHONY : src/Tabby/Renderer/FrameBuffer.cpp.o
+
+src/Tabby/Renderer/FrameBuffer.i: src/Tabby/Renderer/FrameBuffer.cpp.i
+.PHONY : src/Tabby/Renderer/FrameBuffer.i
+
+# target to preprocess a source file
+src/Tabby/Renderer/FrameBuffer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.i
+.PHONY : src/Tabby/Renderer/FrameBuffer.cpp.i
+
+src/Tabby/Renderer/FrameBuffer.s: src/Tabby/Renderer/FrameBuffer.cpp.s
+.PHONY : src/Tabby/Renderer/FrameBuffer.s
+
+# target to generate assembly for a file
+src/Tabby/Renderer/FrameBuffer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.s
+.PHONY : src/Tabby/Renderer/FrameBuffer.cpp.s
 
 src/Tabby/Renderer/GraphicsContext.o: src/Tabby/Renderer/GraphicsContext.cpp.o
 .PHONY : src/Tabby/Renderer/GraphicsContext.o
@@ -1010,6 +1130,9 @@ help:
 	@echo "... src/Platform/OpenGL/OpenGLContext.o"
 	@echo "... src/Platform/OpenGL/OpenGLContext.i"
 	@echo "... src/Platform/OpenGL/OpenGLContext.s"
+	@echo "... src/Platform/OpenGL/OpenGLFramebuffer.o"
+	@echo "... src/Platform/OpenGL/OpenGLFramebuffer.i"
+	@echo "... src/Platform/OpenGL/OpenGLFramebuffer.s"
 	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.o"
 	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.i"
 	@echo "... src/Platform/OpenGL/OpenGLRendererAPI.s"
@@ -1028,6 +1151,9 @@ help:
 	@echo "... src/Tabby/Core/Application.o"
 	@echo "... src/Tabby/Core/Application.i"
 	@echo "... src/Tabby/Core/Application.s"
+	@echo "... src/Tabby/Core/Input.o"
+	@echo "... src/Tabby/Core/Input.i"
+	@echo "... src/Tabby/Core/Input.s"
 	@echo "... src/Tabby/Core/Layer.o"
 	@echo "... src/Tabby/Core/Layer.i"
 	@echo "... src/Tabby/Core/Layer.s"
@@ -1037,6 +1163,9 @@ help:
 	@echo "... src/Tabby/Core/Log.o"
 	@echo "... src/Tabby/Core/Log.i"
 	@echo "... src/Tabby/Core/Log.s"
+	@echo "... src/Tabby/Core/Window.o"
+	@echo "... src/Tabby/Core/Window.i"
+	@echo "... src/Tabby/Core/Window.s"
 	@echo "... src/Tabby/ImGui/ImGuiBuild.o"
 	@echo "... src/Tabby/ImGui/ImGuiBuild.i"
 	@echo "... src/Tabby/ImGui/ImGuiBuild.s"
@@ -1046,6 +1175,12 @@ help:
 	@echo "... src/Tabby/Renderer/Buffer.o"
 	@echo "... src/Tabby/Renderer/Buffer.i"
 	@echo "... src/Tabby/Renderer/Buffer.s"
+	@echo "... src/Tabby/Renderer/EditorCamera.o"
+	@echo "... src/Tabby/Renderer/EditorCamera.i"
+	@echo "... src/Tabby/Renderer/EditorCamera.s"
+	@echo "... src/Tabby/Renderer/FrameBuffer.o"
+	@echo "... src/Tabby/Renderer/FrameBuffer.i"
+	@echo "... src/Tabby/Renderer/FrameBuffer.s"
 	@echo "... src/Tabby/Renderer/GraphicsContext.o"
 	@echo "... src/Tabby/Renderer/GraphicsContext.i"
 	@echo "... src/Tabby/Renderer/GraphicsContext.s"

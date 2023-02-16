@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Core.h"
+#include "Tabby/Core/Base.h"
 #include "Tabby/Core/Timestep.h"
 
 #include "Tabby/Events/Event.h"
@@ -22,7 +22,7 @@ namespace Tabby {
 
         virtual void OnEvent(Event &event) {}
 
-        inline const std::string &GetName() const { return m_DebugName; }
+        const std::string& GetName() const { return m_DebugName; }
 
     protected:
         std::string m_DebugName;

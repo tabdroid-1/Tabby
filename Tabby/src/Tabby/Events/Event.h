@@ -1,7 +1,7 @@
 #pragma once
 
 #include "tbpch.h"
-#include "Tabby/Core/Core.h"
+#include "Tabby/Core/Base.h"
 
 namespace Tabby {
 
@@ -47,7 +47,7 @@ namespace Tabby {
 
         inline bool Handled() const { return m_Handled; }
 
-        inline bool isInCategory(EventCategory category) { return GetCategoryFlags() & category; }
+        bool IsInCategory(EventCategory category) { return GetCategoryFlags() & category; }
 
     protected:
         bool m_Handled = false;

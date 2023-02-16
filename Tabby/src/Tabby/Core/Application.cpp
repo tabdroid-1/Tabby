@@ -7,6 +7,7 @@
 
 #include <GLFW/glfw3.h>
 
+
 namespace Tabby {
 
     Application *Application::s_Instance = nullptr;

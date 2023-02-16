@@ -1,16 +1,18 @@
 #pragma once
 
-#include "Tabby/Core/Core.h"
+
+#include "Tabby/Core/Base.h"
 
 #include "Tabby/Core/Window.h"
-
-#include "Tabby/Events/ApplicationEvent.h"
-#include "Tabby/Events/Event.h"
 #include "Tabby/Core/LayerStack.h"
+#include "Tabby/Events/Event.h"
+#include "Tabby/Events/ApplicationEvent.h"
+
+#include "Tabby/Core/Timestep.h"
 
 #include "Tabby/ImGui/ImGuiLayer.h"
 
-#include "Tabby/Core/Timestep.h"
+int main(int argc, char** argv);
 
 namespace Tabby {
 
@@ -19,18 +21,18 @@ namespace Tabby {
         Application();
         virtual ~Application();
 
-        void Run();
-
         void OnEvent(Event &e);
 
         void PushLayer(Layer *layer);
         void PushOverlay(Layer *layer);
 
-        inline Window &GetWindow() { return *m_Window; }
+        Window& GetWindow() { return *m_Window; }
 
-        inline static Application &Get() { return *s_Instance; }
+        static Application& Get() { return *s_Instance; }
 
     private:
+
+        void Run();
         bool OnWindowClose(WindowCloseEvent &e);
         bool OnWindowResize(WindowResizeEvent &e);
     private:
@@ -42,9 +44,10 @@ namespace Tabby {
         float m_LastFrameTime = 0.0f;
     private:
         static Application *s_Instance;
+        friend int ::main(int argc, char** argv);
     };
 
-// To be defined by CLIENT
-    Application *CreateApplication();
+    // To be defined in CLIENT
+	Application* CreateApplication();
 }
 

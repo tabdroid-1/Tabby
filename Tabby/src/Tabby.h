@@ -2,7 +2,7 @@
 
  // For use by Tabby applications
 
-#include "Tabby/Core/Core.h"
+#include "Tabby/Core/Base.h"
 #include "Tabby/Core/Application.h"
 #include "Tabby/Core/Layer.h"
 #include "Tabby/Core/Log.h"
