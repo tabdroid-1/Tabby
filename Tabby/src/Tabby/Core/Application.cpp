@@ -12,14 +12,14 @@ namespace Tabby {
 
     Application *Application::s_Instance = nullptr;
 
-    Application::Application() {
+    Application::Application(const std::string& name) {
 
         TB_PROFILE_FUNCTION();
         
         TB_CORE_ASSERT(!s_Instance, "Application already exists!");
         s_Instance = this;
 
-        m_Window = Scope<Window>(Window::Create());
+        m_Window = Window::Create(WindowProps(name));
         m_Window->SetEventCallback(TB_BIND_EVENT_FN(Application::OnEvent));
 
         Renderer::Init();

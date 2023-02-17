@@ -1,3 +1,4 @@
 # Hashes of file build rules.
-cd6543e53ce21d5296f8b4312a00c4ef Sandbox/CMakeFiles/copy_assets
+cd6543e53ce21d5296f8b4312a00c4ef Sandbox/CMakeFiles/copy_assets_sandbox
+ce64953d87fba06cb8b9d4656a9804f2 Tabby-Engine/CMakeFiles/copy_assets_editor
 bb316f6341025dd9bd99fc55b13d36ed Tabby/vendor/glm/CMakeFiles/uninstall

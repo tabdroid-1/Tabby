@@ -15,6 +15,7 @@ set(GLFW "${PROJECT_VENDOR_DIR}/GLFW")
 set(GLM "${PROJECT_VENDOR_DIR}/glm")
 set(SPDLOG "${PROJECT_VENDOR_DIR}/spdlog")
 set(STB "${PROJECT_VENDOR_DIR}/stb_image")
+set(ENTT "${PROJECT_VENDOR_DIR}/entt")
 
 ###################################################################
 # Project Sources and add library
@@ -35,6 +36,8 @@ list(APPEND PROJECT_SOURCES
         "${IMGUI}/imgui_demo.cpp"
 
         "${SPDLOG}/include/spdlog/spdlog.h" # For logging
+
+        "${ENTT}/include/entt.hpp" # entity component system
 
         "${STB}/stb_image.h"
         "${STB}/stb_image.cpp"
@@ -74,7 +77,7 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE GLFW_INCLUDE_NONE=1)
 
 if (APPLE)
 #    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -pedantic -Werror)
-    target_compile_definitions(${PROJECT_NAME} PUBLIC TB_DEBUG=1 TB_PLATFORM_OSX=1)
+    target_compile_definitions(${PROJECT_NAME} PUBLIC TB_DEBUG=1 TB_PLATFORM_MACOS=1)
 elseif (WIN32)
     target_compile_definitions(${PROJECT_NAME} PUBLIC TB_DEBUG=1 TB_PLATFORM_WINDOWS=1 TB_BUILD_DLL=1 BUILD_SHARED_LIBS=1)
 endif ()

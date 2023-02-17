@@ -456,7 +456,6 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.cpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \

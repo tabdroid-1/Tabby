@@ -1,6 +1,6 @@
 #pragma once
 
-#if defined (TB_PLATFORM_OSX)
+#if defined (TB_PLATFORM_MACOS)
 
 #include "Tabby/Core/Window.h"
 #include "Tabby/Renderer/GraphicsContext.h"

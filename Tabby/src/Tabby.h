@@ -18,6 +18,12 @@
 
 #include "Tabby/ImGui/ImGuiLayer.h"
 
+#include "Tabby/Scene/Scene.h"
+#include "Tabby/Scene/Entity.h"
+#include "Tabby/Scene/Components.h"
+
+
+
 // Renderer -----------------------------
 #include "Tabby/Renderer/Renderer.h"
 #include "Tabby/Renderer/Renderer2D.h"

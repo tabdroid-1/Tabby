@@ -266,17 +266,43 @@ TabbySandbox/fast:
 .PHONY : TabbySandbox/fast
 
 #=============================================================================
-# Target rules for targets named copy_assets
+# Target rules for targets named copy_assets_sandbox
 
 # Build rule for target.
-copy_assets: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets
-.PHONY : copy_assets
+copy_assets_sandbox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets_sandbox
+.PHONY : copy_assets_sandbox
 
 # fast build rule for target.
-copy_assets/fast:
-	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets.dir/build.make Sandbox/CMakeFiles/copy_assets.dir/build
-.PHONY : copy_assets/fast
+copy_assets_sandbox/fast:
+	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets_sandbox.dir/build.make Sandbox/CMakeFiles/copy_assets_sandbox.dir/build
+.PHONY : copy_assets_sandbox/fast
+
+#=============================================================================
+# Target rules for targets named TabbyEngine
+
+# Build rule for target.
+TabbyEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TabbyEngine
+.PHONY : TabbyEngine
+
+# fast build rule for target.
+TabbyEngine/fast:
+	$(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/build
+.PHONY : TabbyEngine/fast
+
+#=============================================================================
+# Target rules for targets named copy_assets_editor
+
+# Build rule for target.
+copy_assets_editor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets_editor
+.PHONY : copy_assets_editor
+
+# fast build rule for target.
+copy_assets_editor/fast:
+	$(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/copy_assets_editor.dir/build.make Tabby-Engine/CMakeFiles/copy_assets_editor.dir/build
+.PHONY : copy_assets_editor/fast
 
 # Help Target
 help:
@@ -290,10 +316,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... copy_assets"
+	@echo "... copy_assets_editor"
+	@echo "... copy_assets_sandbox"
 	@echo "... uninstall"
 	@echo "... Glad"
 	@echo "... Tabby"
+	@echo "... TabbyEngine"
 	@echo "... TabbySandbox"
 	@echo "... glfw"
 	@echo "... glm_shared"

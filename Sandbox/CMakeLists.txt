@@ -62,10 +62,10 @@ if (WIN32)
     # -------------------------------------------------------------
 endif ()
 
-add_custom_target(copy_assets
+add_custom_target(copy_assets_sandbox
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${PROJECT_ASSETS_DIR} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/assets
         )
 
-add_dependencies(${PROJECT_NAME} copy_assets)
+add_dependencies(${PROJECT_NAME} copy_assets_sandbox)
 # -----------------------------------------------------------------

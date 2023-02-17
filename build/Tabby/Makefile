@@ -454,30 +454,6 @@ src/Tabby/Core/Application.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.s
 .PHONY : src/Tabby/Core/Application.cpp.s
 
-src/Tabby/Core/Input.o: src/Tabby/Core/Input.cpp.o
-.PHONY : src/Tabby/Core/Input.o
-
-# target to build an object file
-src/Tabby/Core/Input.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.o
-.PHONY : src/Tabby/Core/Input.cpp.o
-
-src/Tabby/Core/Input.i: src/Tabby/Core/Input.cpp.i
-.PHONY : src/Tabby/Core/Input.i
-
-# target to preprocess a source file
-src/Tabby/Core/Input.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.i
-.PHONY : src/Tabby/Core/Input.cpp.i
-
-src/Tabby/Core/Input.s: src/Tabby/Core/Input.cpp.s
-.PHONY : src/Tabby/Core/Input.s
-
-# target to generate assembly for a file
-src/Tabby/Core/Input.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.s
-.PHONY : src/Tabby/Core/Input.cpp.s
-
 src/Tabby/Core/Layer.o: src/Tabby/Core/Layer.cpp.o
 .PHONY : src/Tabby/Core/Layer.o
 
@@ -934,6 +910,78 @@ src/Tabby/Renderer/VertexArray.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/VertexArray.cpp.s
 .PHONY : src/Tabby/Renderer/VertexArray.cpp.s
 
+src/Tabby/Scene/Entity.o: src/Tabby/Scene/Entity.cpp.o
+.PHONY : src/Tabby/Scene/Entity.o
+
+# target to build an object file
+src/Tabby/Scene/Entity.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.o
+.PHONY : src/Tabby/Scene/Entity.cpp.o
+
+src/Tabby/Scene/Entity.i: src/Tabby/Scene/Entity.cpp.i
+.PHONY : src/Tabby/Scene/Entity.i
+
+# target to preprocess a source file
+src/Tabby/Scene/Entity.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.i
+.PHONY : src/Tabby/Scene/Entity.cpp.i
+
+src/Tabby/Scene/Entity.s: src/Tabby/Scene/Entity.cpp.s
+.PHONY : src/Tabby/Scene/Entity.s
+
+# target to generate assembly for a file
+src/Tabby/Scene/Entity.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.s
+.PHONY : src/Tabby/Scene/Entity.cpp.s
+
+src/Tabby/Scene/Scene.o: src/Tabby/Scene/Scene.cpp.o
+.PHONY : src/Tabby/Scene/Scene.o
+
+# target to build an object file
+src/Tabby/Scene/Scene.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.o
+.PHONY : src/Tabby/Scene/Scene.cpp.o
+
+src/Tabby/Scene/Scene.i: src/Tabby/Scene/Scene.cpp.i
+.PHONY : src/Tabby/Scene/Scene.i
+
+# target to preprocess a source file
+src/Tabby/Scene/Scene.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.i
+.PHONY : src/Tabby/Scene/Scene.cpp.i
+
+src/Tabby/Scene/Scene.s: src/Tabby/Scene/Scene.cpp.s
+.PHONY : src/Tabby/Scene/Scene.s
+
+# target to generate assembly for a file
+src/Tabby/Scene/Scene.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.s
+.PHONY : src/Tabby/Scene/Scene.cpp.s
+
+src/Tabby/Scene/SceneCamera.o: src/Tabby/Scene/SceneCamera.cpp.o
+.PHONY : src/Tabby/Scene/SceneCamera.o
+
+# target to build an object file
+src/Tabby/Scene/SceneCamera.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.o
+.PHONY : src/Tabby/Scene/SceneCamera.cpp.o
+
+src/Tabby/Scene/SceneCamera.i: src/Tabby/Scene/SceneCamera.cpp.i
+.PHONY : src/Tabby/Scene/SceneCamera.i
+
+# target to preprocess a source file
+src/Tabby/Scene/SceneCamera.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.i
+.PHONY : src/Tabby/Scene/SceneCamera.cpp.i
+
+src/Tabby/Scene/SceneCamera.s: src/Tabby/Scene/SceneCamera.cpp.s
+.PHONY : src/Tabby/Scene/SceneCamera.s
+
+# target to generate assembly for a file
+src/Tabby/Scene/SceneCamera.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.s
+.PHONY : src/Tabby/Scene/SceneCamera.cpp.s
+
 src/tbpch.o: src/tbpch.cpp.o
 .PHONY : src/tbpch.o
 
@@ -1151,9 +1199,6 @@ help:
 	@echo "... src/Tabby/Core/Application.o"
 	@echo "... src/Tabby/Core/Application.i"
 	@echo "... src/Tabby/Core/Application.s"
-	@echo "... src/Tabby/Core/Input.o"
-	@echo "... src/Tabby/Core/Input.i"
-	@echo "... src/Tabby/Core/Input.s"
 	@echo "... src/Tabby/Core/Layer.o"
 	@echo "... src/Tabby/Core/Layer.i"
 	@echo "... src/Tabby/Core/Layer.s"
@@ -1211,6 +1256,15 @@ help:
 	@echo "... src/Tabby/Renderer/VertexArray.o"
 	@echo "... src/Tabby/Renderer/VertexArray.i"
 	@echo "... src/Tabby/Renderer/VertexArray.s"
+	@echo "... src/Tabby/Scene/Entity.o"
+	@echo "... src/Tabby/Scene/Entity.i"
+	@echo "... src/Tabby/Scene/Entity.s"
+	@echo "... src/Tabby/Scene/Scene.o"
+	@echo "... src/Tabby/Scene/Scene.i"
+	@echo "... src/Tabby/Scene/Scene.s"
+	@echo "... src/Tabby/Scene/SceneCamera.o"
+	@echo "... src/Tabby/Scene/SceneCamera.i"
+	@echo "... src/Tabby/Scene/SceneCamera.s"
 	@echo "... src/tbpch.o"
 	@echo "... src/tbpch.i"
 	@echo "... src/tbpch.s"

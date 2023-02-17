@@ -401,13 +401,13 @@ SPDLOG_SANITIZE_ADDRESS:BOOL=OFF
 SPDLOG_TIDY:BOOL=OFF
 
 //Value Computed by CMake
-TabbyEngine_BINARY_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/build
+TabbyEngine_BINARY_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine
 
 //Value Computed by CMake
-TabbyEngine_IS_TOP_LEVEL:STATIC=ON
+TabbyEngine_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-TabbyEngine_SOURCE_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby
+TabbyEngine_SOURCE_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine
 
 //Value Computed by CMake
 TabbySandbox_BINARY_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox
@@ -587,7 +587,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

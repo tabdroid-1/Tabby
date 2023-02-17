@@ -176,18 +176,18 @@ TabbySandbox/fast:
 .PHONY : TabbySandbox/fast
 
 # Convenience name for target.
-Sandbox/CMakeFiles/copy_assets.dir/rule:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/copy_assets.dir/rule
-.PHONY : Sandbox/CMakeFiles/copy_assets.dir/rule
+Sandbox/CMakeFiles/copy_assets_sandbox.dir/rule:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/copy_assets_sandbox.dir/rule
+.PHONY : Sandbox/CMakeFiles/copy_assets_sandbox.dir/rule
 
 # Convenience name for target.
-copy_assets: Sandbox/CMakeFiles/copy_assets.dir/rule
-.PHONY : copy_assets
+copy_assets_sandbox: Sandbox/CMakeFiles/copy_assets_sandbox.dir/rule
+.PHONY : copy_assets_sandbox
 
 # fast build rule for target.
-copy_assets/fast:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets.dir/build.make Sandbox/CMakeFiles/copy_assets.dir/build
-.PHONY : copy_assets/fast
+copy_assets_sandbox/fast:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets_sandbox.dir/build.make Sandbox/CMakeFiles/copy_assets_sandbox.dir/build
+.PHONY : copy_assets_sandbox/fast
 
 src/ExampleLayer.o: src/ExampleLayer.cpp.o
 .PHONY : src/ExampleLayer.o
@@ -273,7 +273,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... copy_assets"
+	@echo "... copy_assets_sandbox"
 	@echo "... TabbySandbox"
 	@echo "... src/ExampleLayer.o"
 	@echo "... src/ExampleLayer.i"

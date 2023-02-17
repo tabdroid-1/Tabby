@@ -10,13 +10,13 @@
 
 namespace Tabby {
 
-    using FloatingPointMicroseconds = std::chrono::duration<double, std::micro>;
+	using FloatingPointMicroseconds = std::chrono::duration<double, std::micro>;
 
 	struct ProfileResult
 	{
 		std::string Name;
-		
-        FloatingPointMicroseconds Start;
+
+		FloatingPointMicroseconds Start;
 		std::chrono::microseconds ElapsedTime;
 		std::thread::id ThreadID;
 	};
@@ -28,54 +28,37 @@ namespace Tabby {
 
 	class Instrumentor
 	{
-	private:
-        std::mutex m_Mutex;
-		InstrumentationSession* m_CurrentSession;
-		std::ofstream m_OutputStream;
-
 	public:
-		Instrumentor()
-			: m_CurrentSession(nullptr)
-		{
-		}
+		Instrumentor(const Instrumentor&) = delete;
+		Instrumentor(Instrumentor&&) = delete;
 
 		void BeginSession(const std::string& name, const std::string& filepath = "results.json")
 		{
-            std::lock_guard lock(m_Mutex);
-
-			if (m_CurrentSession) 
-            {
+			std::lock_guard lock(m_Mutex);
+			if (m_CurrentSession)
+			{
 				// If there is already a current session, then close it before beginning new one.
 				// Subsequent profiling output meant for the original session will end up in the
 				// newly opened session instead.  That's better than having badly formatted
 				// profiling output.
 				if (Log::GetCoreLogger()) // Edge case: BeginSession() might be before Log::Init()
-                {
-
+				{
 					TB_CORE_ERROR("Instrumentor::BeginSession('{0}') when session '{1}' already open.", name, m_CurrentSession->Name);
-
 				}
-
 				InternalEndSession();
 			}
-
 			m_OutputStream.open(filepath);
 
-            if (m_OutputStream.is_open()) 
-            {
-
+			if (m_OutputStream.is_open())
+			{
 				m_CurrentSession = new InstrumentationSession({name});
 				WriteHeader();
-
-			} 
-            else 
-            {
-
+			}
+			else
+			{
 				if (Log::GetCoreLogger()) // Edge case: BeginSession() might be before Log::Init()
-                {
-
+				{
 					TB_CORE_ERROR("Instrumentor could not open results file '{0}'.", filepath);
-
 				}
 			}
 		}
@@ -102,17 +85,28 @@ namespace Tabby {
 			json << "}";
 
 			std::lock_guard lock(m_Mutex);
-			if (m_CurrentSession) 
-            {
+			if (m_CurrentSession)
+			{
 				m_OutputStream << json.str();
 				m_OutputStream.flush();
 			}
 		}
 
-        static Instrumentor& Get() {
+		static Instrumentor& Get()
+		{
 			static Instrumentor instance;
 			return instance;
 		}
+	private:
+		Instrumentor()
+			: m_CurrentSession(nullptr)
+		{
+		}
+
+		~Instrumentor()
+		{
+			EndSession();
+		}		
 
 		void WriteHeader()
 		{
@@ -126,21 +120,22 @@ namespace Tabby {
 			m_OutputStream.flush();
 		}
 
-        // Note: you must already own lock on m_Mutex before
+		// Note: you must already own lock on m_Mutex before
 		// calling InternalEndSession()
-		void InternalEndSession() 
-        {
-
-			if (m_CurrentSession) 
-            {
+		void InternalEndSession()
+		{
+			if (m_CurrentSession)
+			{
 				WriteFooter();
 				m_OutputStream.close();
 				delete m_CurrentSession;
 				m_CurrentSession = nullptr;
 			}
-
 		}
-
+	private:
+		std::mutex m_Mutex;
+		InstrumentationSession* m_CurrentSession;
+		std::ofstream m_OutputStream;
 	};
 
 	class InstrumentationTimer
@@ -174,7 +169,7 @@ namespace Tabby {
 		bool m_Stopped;
 	};
 
-    namespace InstrumentorUtils {
+	namespace InstrumentorUtils {
 
 		template <size_t N>
 		struct ChangeResult
@@ -203,7 +198,6 @@ namespace Tabby {
 		}
 	}
 }
-
 #define TB_PROFILE 0
 #if TB_PROFILE
 
@@ -230,8 +224,10 @@ namespace Tabby {
 
 	#define TB_PROFILE_BEGIN_SESSION(name, filepath) ::Tabby::Instrumentor::Get().BeginSession(name, filepath)
 	#define TB_PROFILE_END_SESSION() ::Tabby::Instrumentor::Get().EndSession()
-	#define TB_PROFILE_SCOPE(name) constexpr auto fixedName = ::Tabby::InstrumentorUtils::CleanupOutputString(name, "__cdecl ");\
-									::Tabby::InstrumentationTimer timer##__LINE__(fixedName.Data)
+	#define TB_PROFILE_SCOPE_LINE2(name, line) constexpr auto fixedName##line = ::Tabby::InstrumentorUtils::CleanupOutputString(name, "__cdecl ");\
+											   ::Tabby::InstrumentationTimer timer##line(fixedName##line.Data)
+	#define TB_PROFILE_SCOPE_LINE(name, line) TB_PROFILE_SCOPE_LINE2(name, line)
+	#define TB_PROFILE_SCOPE(name) TB_PROFILE_SCOPE_LINE(name, __LINE__)
 	#define TB_PROFILE_FUNCTION() TB_PROFILE_SCOPE(TB_FUNC_SIG)
 
 

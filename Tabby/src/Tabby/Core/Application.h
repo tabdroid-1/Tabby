@@ -18,7 +18,7 @@ namespace Tabby {
 
     class Application {
     public:
-        Application();
+        Application(const std::string& name = "Tabby App");
         virtual ~Application();
 
         void OnEvent(Event &e);
@@ -29,6 +29,8 @@ namespace Tabby {
         Window& GetWindow() { return *m_Window; }
 
         void Close();
+
+        ImGuiLayer* GetImGuiLayer() { return m_ImGuiLayer; }
 
         static Application& Get() { return *s_Instance; }
 

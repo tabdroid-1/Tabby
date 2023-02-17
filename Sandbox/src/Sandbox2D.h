@@ -20,7 +20,6 @@ private:
     // Temporary
     Tabby::Ref<Tabby::VertexArray> m_SquareVA;
     Tabby::Ref<Tabby::Shader> m_FlatColorShader;
-    Tabby::Ref<Tabby::Framebuffer> m_Framebuffer;
 
     Tabby::Ref<Tabby::Texture2D> m_CheckerboardTexture;
 

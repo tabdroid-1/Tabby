@@ -1,4 +1,4 @@
-Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.o: \
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx \
   /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.cxx \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
@@ -455,8 +455,9 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Input.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.cpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.h
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.cpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Timestep.h
