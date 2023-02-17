@@ -4,6 +4,7 @@
 
 #include "Tabby/Core/Base.h"
 #include "Tabby/Core/Application.h"
+#include "Tabby/Renderer/Framebuffer.h"
 #include "Tabby/Core/Layer.h"
 #include "Tabby/Core/Log.h"
 

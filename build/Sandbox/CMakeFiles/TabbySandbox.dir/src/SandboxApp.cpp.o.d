@@ -695,6 +695,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \

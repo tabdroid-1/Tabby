@@ -1,12 +1,10 @@
 #include "tbpch.h"
 #include "Tabby/Renderer/Framebuffer.h"
-
 #include "Tabby/Renderer/Renderer.h"
-
 #include "Platform/OpenGL/OpenGLFramebuffer.h"
 
 namespace Tabby {
-	
+
 	Ref<Framebuffer> Framebuffer::Create(const FramebufferSpecification& spec)
 	{
 		switch (Renderer::GetAPI())

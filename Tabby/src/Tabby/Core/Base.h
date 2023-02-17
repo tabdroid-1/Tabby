@@ -75,18 +75,32 @@
 #endif // End of DLL support
 
 #ifdef TB_DEBUG
+    #if defined(TB_PLATFORM_WINDOWS)
+		#define TB_DEBUGBREAK() __debugbreak()
+	#elif defined(TB_PLATFORM_LINUX)
+		#include <signal.h>
+		#define TB_DEBUGBREAK() raise(SIGTRAP)
+    #elif defined(TB_PLATFORM_MACOS)
+		#if defined(__clang__)
+            #define TB_DEBUG_BREAK __builtin_debugtrap()
+        #elif defined(_MSC_VER)
+            #define TB_DEBUG_BREAK __debugbreak()
+        #endif
+	#else
+		#error "Platform doesn't support debugbreak yet!"
+	#endif
 	#define TB_ENABLE_ASSERTS
 #endif
 
-#if defined(__clang__)
-#define DEBUG_BREAK __builtin_debugtrap()
-#elif defined(_MSC_VER)
-#define DEBUG_BREAK __debugbreak()
-#endif
+// #if defined(__clang__)
+// #define DEBUG_BREAK __builtin_debugtrap()
+// #elif defined(_MSC_VER)
+// #define DEBUG_BREAK __debugbreak()
+// #endif
 
 #ifdef TB_ENABLE_ASSERTS
-	#define TB_ASSERT(x, ...) { if(!(x)) { TB_ERROR("Assertion Failed: {0}", __VA_ARGS__); DEBUG_BREAK; } }
-	#define TB_CORE_ASSERT(x, ...) { if(!(x)) { TB_CORE_ERROR("Assertion Failed: {0}", __VA_ARGS__); DEBUG_BREAK; } }
+	#define TB_ASSERT(x, ...) { if(!(x)) { TB_ERROR("Assertion Failed: {0}", __VA_ARGS__); TB_DEBUG_BREAK; } }
+	#define TB_CORE_ASSERT(x, ...) { if(!(x)) { TB_CORE_ERROR("Assertion Failed: {0}", __VA_ARGS__); TB_DEBUG_BREAK; } }
 #else
 	#define TB_ASSERT(x, ...)
 	#define TB_CORE_ASSERT(x, ...)
