@@ -8,6 +8,15 @@ set(CMAKE_CXX_STANDARD 17)
 set(PROJECT_SOURCE_DIR "${CMAKE_CURRENT_LIST_DIR}/src")
 set(PROJECT_VENDOR_DIR "${CMAKE_CURRENT_LIST_DIR}/vendor")
 
+
+# For GTK
+# The `pkg_check_modules` function is created with this call
+find_package(PkgConfig REQUIRED)
+
+# These calls create special `PkgConfig::<MODULE>` variables
+pkg_check_modules(GTKMM_PKG IMPORTED_TARGET gtkmm-3.0)
+
+
 # Vendor/Libraries
 set(IMGUI "${PROJECT_VENDOR_DIR}/imgui")
 set(GLAD "${PROJECT_VENDOR_DIR}/Glad")
@@ -16,6 +25,7 @@ set(GLM "${PROJECT_VENDOR_DIR}/glm")
 set(SPDLOG "${PROJECT_VENDOR_DIR}/spdlog")
 set(STB "${PROJECT_VENDOR_DIR}/stb_image")
 set(ENTT "${PROJECT_VENDOR_DIR}/entt")
+set(YAML "${PROJECT_VENDOR_DIR}/yaml-cpp")
 
 ###################################################################
 # Project Sources and add library
@@ -61,6 +71,7 @@ add_subdirectory(${SPDLOG})
 add_subdirectory(${GLAD})
 add_subdirectory(${GLM})
 add_subdirectory(${PROJECT_VENDOR_DIR}) # ImGui
+add_subdirectory(${YAML})
 
 target_link_libraries(${PROJECT_NAME} PUBLIC
         "spdlog"
@@ -68,7 +79,10 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
         "glfw"
         "glm"
         "imgui"
+        "yaml-cpp"
+        PkgConfig::GTKMM_PKG
         )
+# target_link_libraries()
 
 ###################################################################
 # Compiler options

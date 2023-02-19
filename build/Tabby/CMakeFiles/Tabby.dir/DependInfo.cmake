@@ -10,8 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.cxx" "Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch" "gcc" "Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch" "gcc" "Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacDialogWindow.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacPlatformUtils.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacWindow.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLBuffer.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o.d"
@@ -76,6 +80,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneSerializer.cpp" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.cpp" "Tabby/CMakeFiles/Tabby.dir/src/tbpch.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/tbpch.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx" "Tabby/CMakeFiles/Tabby.dir/src/tbpch.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/src/tbpch.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.cpp" "Tabby/CMakeFiles/Tabby.dir/vendor/imgui/imgui.cpp.o" "gcc" "Tabby/CMakeFiles/Tabby.dir/vendor/imgui/imgui.cpp.o.d"
@@ -98,6 +104,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/Glad/CMakeFiles/Glad.dir/DependInfo.cmake"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

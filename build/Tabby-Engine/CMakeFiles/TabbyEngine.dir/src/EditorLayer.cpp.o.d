@@ -744,4 +744,6 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/../mat3x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/../mat4x2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/../mat4x3.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneSerializer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Utils/PlatformUtils.h

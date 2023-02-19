@@ -746,7 +746,9 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o: /Users/tabby/Desk
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x3.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneSerializer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Utils/PlatformUtils.h
 
 Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.h \
@@ -2119,6 +2121,8 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o: /Users/tabby/D
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui_internal.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneSerializer.h:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_int1_sized.hpp:
@@ -2400,6 +2404,8 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o: /Users/tabby/D
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Utils/PlatformUtils.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_setsize.h:
 

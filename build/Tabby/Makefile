@@ -158,6 +158,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles/VerifyGlobs.cmake
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -190,6 +191,30 @@ cmake_pch_arm64.hxx.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.s
 .PHONY : cmake_pch_arm64.hxx.s
 
+src/Platform/OSX/MacDialogWindow.o: src/Platform/OSX/MacDialogWindow.cpp.o
+.PHONY : src/Platform/OSX/MacDialogWindow.o
+
+# target to build an object file
+src/Platform/OSX/MacDialogWindow.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o
+.PHONY : src/Platform/OSX/MacDialogWindow.cpp.o
+
+src/Platform/OSX/MacDialogWindow.i: src/Platform/OSX/MacDialogWindow.cpp.i
+.PHONY : src/Platform/OSX/MacDialogWindow.i
+
+# target to preprocess a source file
+src/Platform/OSX/MacDialogWindow.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.i
+.PHONY : src/Platform/OSX/MacDialogWindow.cpp.i
+
+src/Platform/OSX/MacDialogWindow.s: src/Platform/OSX/MacDialogWindow.cpp.s
+.PHONY : src/Platform/OSX/MacDialogWindow.s
+
+# target to generate assembly for a file
+src/Platform/OSX/MacDialogWindow.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.s
+.PHONY : src/Platform/OSX/MacDialogWindow.cpp.s
+
 src/Platform/OSX/MacInput.o: src/Platform/OSX/MacInput.cpp.o
 .PHONY : src/Platform/OSX/MacInput.o
 
@@ -213,6 +238,30 @@ src/Platform/OSX/MacInput.s: src/Platform/OSX/MacInput.cpp.s
 src/Platform/OSX/MacInput.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s
 .PHONY : src/Platform/OSX/MacInput.cpp.s
+
+src/Platform/OSX/MacPlatformUtils.o: src/Platform/OSX/MacPlatformUtils.cpp.o
+.PHONY : src/Platform/OSX/MacPlatformUtils.o
+
+# target to build an object file
+src/Platform/OSX/MacPlatformUtils.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o
+.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.o
+
+src/Platform/OSX/MacPlatformUtils.i: src/Platform/OSX/MacPlatformUtils.cpp.i
+.PHONY : src/Platform/OSX/MacPlatformUtils.i
+
+# target to preprocess a source file
+src/Platform/OSX/MacPlatformUtils.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.i
+.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.i
+
+src/Platform/OSX/MacPlatformUtils.s: src/Platform/OSX/MacPlatformUtils.cpp.s
+.PHONY : src/Platform/OSX/MacPlatformUtils.s
+
+# target to generate assembly for a file
+src/Platform/OSX/MacPlatformUtils.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.s
+.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.s
 
 src/Platform/OSX/MacWindow.o: src/Platform/OSX/MacWindow.cpp.o
 .PHONY : src/Platform/OSX/MacWindow.o
@@ -982,6 +1031,30 @@ src/Tabby/Scene/SceneCamera.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneCamera.cpp.s
 .PHONY : src/Tabby/Scene/SceneCamera.cpp.s
 
+src/Tabby/Scene/SceneSerializer.o: src/Tabby/Scene/SceneSerializer.cpp.o
+.PHONY : src/Tabby/Scene/SceneSerializer.o
+
+# target to build an object file
+src/Tabby/Scene/SceneSerializer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.o
+.PHONY : src/Tabby/Scene/SceneSerializer.cpp.o
+
+src/Tabby/Scene/SceneSerializer.i: src/Tabby/Scene/SceneSerializer.cpp.i
+.PHONY : src/Tabby/Scene/SceneSerializer.i
+
+# target to preprocess a source file
+src/Tabby/Scene/SceneSerializer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.i
+.PHONY : src/Tabby/Scene/SceneSerializer.cpp.i
+
+src/Tabby/Scene/SceneSerializer.s: src/Tabby/Scene/SceneSerializer.cpp.s
+.PHONY : src/Tabby/Scene/SceneSerializer.s
+
+# target to generate assembly for a file
+src/Tabby/Scene/SceneSerializer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/SceneSerializer.cpp.s
+.PHONY : src/Tabby/Scene/SceneSerializer.cpp.s
+
 src/tbpch.o: src/tbpch.cpp.o
 .PHONY : src/tbpch.o
 
@@ -1166,9 +1239,15 @@ help:
 	@echo "... cmake_pch_arm64.hxx.pch"
 	@echo "... cmake_pch_arm64.hxx.i"
 	@echo "... cmake_pch_arm64.hxx.s"
+	@echo "... src/Platform/OSX/MacDialogWindow.o"
+	@echo "... src/Platform/OSX/MacDialogWindow.i"
+	@echo "... src/Platform/OSX/MacDialogWindow.s"
 	@echo "... src/Platform/OSX/MacInput.o"
 	@echo "... src/Platform/OSX/MacInput.i"
 	@echo "... src/Platform/OSX/MacInput.s"
+	@echo "... src/Platform/OSX/MacPlatformUtils.o"
+	@echo "... src/Platform/OSX/MacPlatformUtils.i"
+	@echo "... src/Platform/OSX/MacPlatformUtils.s"
 	@echo "... src/Platform/OSX/MacWindow.o"
 	@echo "... src/Platform/OSX/MacWindow.i"
 	@echo "... src/Platform/OSX/MacWindow.s"
@@ -1265,6 +1344,9 @@ help:
 	@echo "... src/Tabby/Scene/SceneCamera.o"
 	@echo "... src/Tabby/Scene/SceneCamera.i"
 	@echo "... src/Tabby/Scene/SceneCamera.s"
+	@echo "... src/Tabby/Scene/SceneSerializer.o"
+	@echo "... src/Tabby/Scene/SceneSerializer.i"
+	@echo "... src/Tabby/Scene/SceneSerializer.s"
 	@echo "... src/tbpch.o"
 	@echo "... src/tbpch.i"
 	@echo "... src/tbpch.s"
@@ -1297,6 +1379,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles/VerifyGlobs.cmake
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

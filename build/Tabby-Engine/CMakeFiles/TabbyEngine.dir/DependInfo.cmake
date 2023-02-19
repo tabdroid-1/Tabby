@@ -20,6 +20,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/Glad/CMakeFiles/Glad.dir/DependInfo.cmake"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
