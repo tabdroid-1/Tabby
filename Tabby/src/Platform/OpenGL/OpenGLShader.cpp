@@ -60,7 +60,7 @@ namespace Tabby {
         TB_PROFILE_FUNCTION();
 
         std::string result;
-        std::ifstream in(filepath, std::ios::in | std::ios::binary);
+        std::ifstream in(filepath, std::ios::in | std::ios::binary); // ifstream closes itself due to RAII
         // Get size of file, create string that is that size, and load everything from file into string
         if (in) {
             in.seekg(0, std::ios::end);
@@ -70,7 +70,6 @@ namespace Tabby {
 				result.resize(size);
 				in.seekg(0, std::ios::beg);
 				in.read(&result[0], size);
-				in.close();
 			}
 			else
 			{

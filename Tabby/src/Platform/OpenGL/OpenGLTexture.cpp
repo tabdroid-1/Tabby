@@ -27,18 +27,22 @@ namespace Tabby {
 
     OpenGLTexture2D::OpenGLTexture2D(const std::string &path) : m_Path(path) {
 
-
-        // GLenum internalFormat = (channels == 4) ? GL_RGBA8 : (channels == 3) ? GL_RGB8 : 0;
-        // GLenum dataFormat = (channels == 4) ? GL_RGBA : (channels == 3) ? GL_RGB : 0;
-        // TB_CORE_ASSERT((internalFormat & dataFormat), "Format not supported!");
-        // m_InternalFormat = internalFormat;
-        // m_DataFormat = dataFormat;
-
         TB_PROFILE_FUNCTION();
         
+        // int width, height, channels;
+		// stbi_set_flip_vertically_on_load(1);
+		// stbi_uc* data = stbi_load(path.c_str(), &width, &height, &channels, 0);
+		// TB_CORE_ASSERT(data, "Failed to load image!");
+		// m_Width = width;
+		// m_Height = height;
+
         int width, height, channels;
 		stbi_set_flip_vertically_on_load(1);
-		stbi_uc* data = stbi_load(path.c_str(), &width, &height, &channels, 0);
+		stbi_uc* data = nullptr;
+		{
+			TB_PROFILE_SCOPE("stbi_load - OpenGLTexture2D::OpenGLTexture2D(const std::string&)");
+			data = stbi_load(path.c_str(), &width, &height, &channels, 0);
+		}
 		TB_CORE_ASSERT(data, "Failed to load image!");
 		m_Width = width;
 		m_Height = height;

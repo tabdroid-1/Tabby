@@ -7,6 +7,10 @@
 #include <stdio.h>
 #include <iomanip>
 #include <thread>
+#include <mutex>
+#include <sstream>
+
+#include "Tabby/Core/Log.h"
 
 namespace Tabby {
 

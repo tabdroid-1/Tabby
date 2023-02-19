@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o"
   "CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o.d"
+  "CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o"
+  "CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o.d"
   "CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o"
   "CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o.d"
   "TabbyEngine"

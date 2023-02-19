@@ -1,6 +1,8 @@
 #pragma once
 
-#include "tbpch.h"
+#include <functional>
+
+#include "Tabby/Debug/Instrumentor.h"
 #include "Tabby/Core/Base.h"
 
 namespace Tabby {
@@ -67,7 +69,7 @@ namespace Tabby {
 		{
 			if (m_Event.GetEventType() == T::GetStaticType())
 			{
-				m_Event.Handled = func(static_cast<T&>(m_Event));
+				m_Event.Handled |= func(static_cast<T&>(m_Event));
 				return true;
 			}
 			return false;

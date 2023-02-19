@@ -83,10 +83,24 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.s"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/EditorLayer.cpp -o CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.s
 
+Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o: Tabby-Engine/CMakeFiles/TabbyEngine.dir/flags.make
+Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp
+Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o: Tabby-Engine/CMakeFiles/TabbyEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o -MF CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o.d -o CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp
+
+Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.i"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp > CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.i
+
+Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.s"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp -o CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.s
+
 Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o: Tabby-Engine/CMakeFiles/TabbyEngine.dir/flags.make
 Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/TabbyEngineApp.cpp
 Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o: Tabby-Engine/CMakeFiles/TabbyEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o -MF CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o.d -o CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/TabbyEngineApp.cpp
 
 Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.i: cmake_force
@@ -100,12 +114,14 @@ Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.s: cmake_force
 # Object files for target TabbyEngine
 TabbyEngine_OBJECTS = \
 "CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o" \
+"CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o" \
 "CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o"
 
 # External object files for target TabbyEngine
 TabbyEngine_EXTERNAL_OBJECTS =
 
 Tabby-Engine/TabbyEngine: Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o
+Tabby-Engine/TabbyEngine: Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o
 Tabby-Engine/TabbyEngine: Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o
 Tabby-Engine/TabbyEngine: Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make
 Tabby-Engine/TabbyEngine: Tabby/libTabby.a
@@ -114,7 +130,7 @@ Tabby-Engine/TabbyEngine: Tabby/vendor/Glad/libGlad.dylib
 Tabby-Engine/TabbyEngine: Tabby/vendor/GLFW/src/libglfw.3.4.dylib
 Tabby-Engine/TabbyEngine: Tabby/vendor/libimgui.a
 Tabby-Engine/TabbyEngine: Tabby-Engine/CMakeFiles/TabbyEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TabbyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TabbyEngine"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TabbyEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

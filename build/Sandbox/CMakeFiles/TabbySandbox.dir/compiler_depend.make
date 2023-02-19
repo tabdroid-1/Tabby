@@ -240,14 +240,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/PlatformDetection.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits \
@@ -372,11 +371,39 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h \
@@ -390,10 +417,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h \
@@ -424,43 +447,18 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -471,13 +469,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
@@ -631,21 +622,16 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/ScriptableEntity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec2.hpp \
@@ -669,6 +655,20 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
@@ -986,14 +986,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/PlatformDetection.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits \
@@ -1118,11 +1117,39 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h \
@@ -1136,10 +1163,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h \
@@ -1170,43 +1193,18 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -1217,13 +1215,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
@@ -1377,21 +1368,16 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/ScriptableEntity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec2.hpp \
@@ -1415,6 +1401,20 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
@@ -1732,13 +1732,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/PlatformDetection.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits \
@@ -1863,11 +1863,39 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h \
@@ -1881,10 +1909,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h \
@@ -1915,43 +1939,17 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/circular_q.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/version.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Debug/Instrumentor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.h \
@@ -1962,26 +1960,16 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Input.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/MouseCodes.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/simd/platform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/float.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x4.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x4.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat4x4.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/fwd.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/simd/platform.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/compute_vector_relational.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat4x4.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec2.hpp \
@@ -1996,6 +1984,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_int2_sized.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_int2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/scalar_int_sized.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint2_sized.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint2.hpp \
@@ -2004,6 +1993,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/compute_vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool3_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float3_precision.hpp \
@@ -2017,6 +2007,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool4_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float4_precision.hpp \
@@ -2031,13 +2023,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec2.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x2.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x3.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x3.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x3_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x3.hpp \
@@ -2045,6 +2037,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x4.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x4_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x4.hpp \
@@ -2084,27 +2077,50 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x3_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat4x4.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_matrix.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_geometric.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/exponential.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec2.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_exponential.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_vector_relational.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_vectorize.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_fixes.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_common.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/compute_common.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x4_precision.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x4.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2_precision.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_trigonometric.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/exponential.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/packing.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_packing.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_half.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_half.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec3.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vec4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_projection.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/scalar_constants.hpp \
@@ -2112,7 +2128,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_trigonometric.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_projection.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_clip_space.hpp \
@@ -2129,6 +2144,7 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_relational.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_relational.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
@@ -2167,14 +2183,19 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_transform.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat3x3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat4x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec3.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec4.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/exponential.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/epsilon.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/epsilon.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/vec1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool1.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool1_precision.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float1_precision.hpp \
@@ -2186,24 +2207,26 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint1_sized.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint1.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x3.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x3.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x4.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x2.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat4x3.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/ScriptableEntity.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/fwd.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/packing.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_packing.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_half.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_half.inl \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/integer.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_integer.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
@@ -2211,12 +2234,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h
 
 
 /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/SandboxApp.cpp:
@@ -2255,17 +2277,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_transform.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_clip_space.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/scalar_constants.inl:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_float.hpp:
 
@@ -2274,6 +2288,26 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_transform.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/scalar_constants.inl:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_relational.hpp:
 
@@ -2453,18 +2487,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/KeyCodes.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/MouseEvent.h:
@@ -2477,73 +2499,25 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x2.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint1_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_zero.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_setsize.h:
 
@@ -2573,25 +2547,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_short.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x4.hpp:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float1_precision.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/projected.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x3.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_def.h:
 
@@ -2605,23 +2567,63 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdlib.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_relational.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/_vectorize.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_mat2x3.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bitset:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_int3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/synchronous_factory.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/logger.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_uint1_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/core.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/limits.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h:
 
@@ -2642,6 +2644,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
@@ -2679,15 +2683,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
@@ -2743,10 +2743,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder2nd.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_ctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/size.h:
@@ -2762,6 +2758,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_half.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/bundled/format.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_quat.hpp:
 
@@ -2821,6 +2819,10 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/function.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder2nd.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind.h:
@@ -2839,15 +2841,17 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/search.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigset_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/common.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/tbpch.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
@@ -2861,17 +2865,15 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/log_msg.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/Event.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float2.hpp:
 
@@ -2925,15 +2927,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/fmt.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/limits.h:
-
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp:
-
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -2947,6 +2945,10 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/PlatformDetection.h:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/func_trigonometric.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wchar.h:
@@ -2955,9 +2957,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/arch.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_double2.hpp:
 
@@ -3059,9 +3061,17 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double4x2.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/backtracer.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/generate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
@@ -3084,8 +3094,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/advance.h:
 
@@ -3111,9 +3119,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/prev.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/spdlog.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/ExampleLayer.cpp:
 
@@ -3130,6 +3140,12 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/projected.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
@@ -3181,15 +3197,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_wint_t.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_wctype.h:
 
@@ -3221,6 +3233,12 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_time_t.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_relational.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/registry.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mbstate_t.h:
@@ -3243,6 +3261,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_dev_t.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/details/null_mutex.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/forward.h:
@@ -3256,8 +3276,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/_OSByteOrder.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/runetype.h:
 
@@ -3285,11 +3303,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/tweakme.h:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/ScriptableEntity.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory:
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat3x4.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigset_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
@@ -3316,6 +3336,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/mat2x4.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint8_t.h:
 
@@ -3389,21 +3411,13 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/appleapiopts.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Sandbox/src/Sandbox2D.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_int3.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits:
 
@@ -3439,11 +3453,11 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/arch.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float1_precision.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/types.h:
 
@@ -3509,6 +3523,10 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_size_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h:
@@ -3555,6 +3573,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/spdlog/include/spdlog/fmt/ostr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_intptr_t.h:
@@ -3576,6 +3596,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_float3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
 

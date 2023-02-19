@@ -6,38 +6,37 @@
 
 namespace Tabby {
 
-    bool Input::IsKeyPressed(KeyCode key) {
-        auto window = static_cast<GLFWwindow *>(Application::Get().GetWindow().GetNativeWindow());
-        auto state = glfwGetKey(window, static_cast<int32_t>(key));
+    bool Input::IsKeyPressed(const KeyCode key)
+	{
+		auto* window = static_cast<GLFWwindow*>(Application::Get().GetWindow().GetNativeWindow());
+		auto state = glfwGetKey(window, static_cast<int32_t>(key));
+		return state == GLFW_PRESS || state == GLFW_REPEAT;
+	}
 
-        // Check if this key is currently pressed
-        return state == GLFW_PRESS || state == GLFW_REPEAT;
-    }
+	bool Input::IsMouseButtonPressed(const MouseCode button)
+	{
+		auto* window = static_cast<GLFWwindow*>(Application::Get().GetWindow().GetNativeWindow());
+		auto state = glfwGetMouseButton(window, static_cast<int32_t>(button));
+		return state == GLFW_PRESS;
+	}
 
-    bool Input::IsMouseButtonPressed(MouseCode button) {
-        auto window = static_cast<GLFWwindow *>(Application::Get().GetWindow().GetNativeWindow());
-        auto state = glfwGetMouseButton(window, static_cast<int32_t>(button));
+	glm::vec2 Input::GetMousePosition()
+	{
+		auto* window = static_cast<GLFWwindow*>(Application::Get().GetWindow().GetNativeWindow());
+		double xpos, ypos;
+		glfwGetCursorPos(window, &xpos, &ypos);
 
-        return state == GLFW_PRESS;
-    }
+		return { (float)xpos, (float)ypos };
+	}
 
-    std::pair<float, float> Input::GetMousePosition() {
-        auto window = static_cast<GLFWwindow *>(Application::Get().GetWindow().GetNativeWindow());
-        double xpos, ypos;
-        glfwGetCursorPos(window, &xpos, &ypos);
+	float Input::GetMouseX()
+	{
+		return GetMousePosition().x;
+	}
 
-        return {static_cast<float>(xpos), static_cast<float>(ypos)};
-    }
-
-    float Input::GetMouseX() {
-        auto[x, y] = GetMousePosition();
-        return x;
-    }
-
-
-    float Input::GetMouseY() {
-        auto[x, y] = GetMousePosition();
-        return y;
-    }
+	float Input::GetMouseY()
+	{
+		return GetMousePosition().y;
+	}
 
 }

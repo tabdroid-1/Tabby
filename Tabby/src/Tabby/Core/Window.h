@@ -1,8 +1,9 @@
 #pragma once
 
+#include <sstream>
+
 #include "Tabby/Core/Base.h"
 #include "Tabby/Events/Event.h"
-#include "tbpch.h"
 
 namespace Tabby {
     struct WindowProps {
@@ -11,8 +12,8 @@ namespace Tabby {
         uint32_t Height;
 
         WindowProps(const std::string &title = "Tabby Engine",
-                    uint32_t width = 1280,
-                    uint32_t height = 720)
+                    uint32_t width = 1600,
+                    uint32_t height = 900)
                 : Title(title), Width(width), Height(height) {}
     };
 

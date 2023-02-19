@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/EditorLayer.cpp" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o" "gcc" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.o.d"
+  "/Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/Panels/SceneHierarchyPanel.cpp" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o" "gcc" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o.d"
   "/Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/src/TabbyEngineApp.cpp" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o" "gcc" "Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/TabbyEngineApp.cpp.o.d"
   )
 

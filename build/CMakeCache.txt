@@ -400,6 +400,9 @@ SPDLOG_SANITIZE_ADDRESS:BOOL=OFF
 //run clang-tidy
 SPDLOG_TIDY:BOOL=OFF
 
+//No help, variable specified on the command line.
+TB_ENABLE_ASSERTS:UNINITIALIZED=ON
+
 //Value Computed by CMake
 TabbyEngine_BINARY_DIR:STATIC=/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine
 

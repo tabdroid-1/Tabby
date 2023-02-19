@@ -213,6 +213,30 @@ src/EditorLayer.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/EditorLayer.cpp.s
 .PHONY : src/EditorLayer.cpp.s
 
+src/Panels/SceneHierarchyPanel.o: src/Panels/SceneHierarchyPanel.cpp.o
+.PHONY : src/Panels/SceneHierarchyPanel.o
+
+# target to build an object file
+src/Panels/SceneHierarchyPanel.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.o
+.PHONY : src/Panels/SceneHierarchyPanel.cpp.o
+
+src/Panels/SceneHierarchyPanel.i: src/Panels/SceneHierarchyPanel.cpp.i
+.PHONY : src/Panels/SceneHierarchyPanel.i
+
+# target to preprocess a source file
+src/Panels/SceneHierarchyPanel.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.i
+.PHONY : src/Panels/SceneHierarchyPanel.cpp.i
+
+src/Panels/SceneHierarchyPanel.s: src/Panels/SceneHierarchyPanel.cpp.s
+.PHONY : src/Panels/SceneHierarchyPanel.s
+
+# target to generate assembly for a file
+src/Panels/SceneHierarchyPanel.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/src/Panels/SceneHierarchyPanel.cpp.s
+.PHONY : src/Panels/SceneHierarchyPanel.cpp.s
+
 src/TabbyEngineApp.o: src/TabbyEngineApp.cpp.o
 .PHONY : src/TabbyEngineApp.o
 
@@ -254,6 +278,9 @@ help:
 	@echo "... src/EditorLayer.o"
 	@echo "... src/EditorLayer.i"
 	@echo "... src/EditorLayer.s"
+	@echo "... src/Panels/SceneHierarchyPanel.o"
+	@echo "... src/Panels/SceneHierarchyPanel.i"
+	@echo "... src/Panels/SceneHierarchyPanel.s"
 	@echo "... src/TabbyEngineApp.o"
 	@echo "... src/TabbyEngineApp.i"
 	@echo "... src/TabbyEngineApp.s"
