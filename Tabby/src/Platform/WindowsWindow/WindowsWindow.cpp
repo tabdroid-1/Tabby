@@ -1,19 +1,19 @@
 #if defined (TB_PLATFORM_WINDOWS)
 
 #include "tbpch.h"
-#include "Hazel/Core/Log.h"
+#include "Tabby/Core/Log.h"
 #include "WindowsWindow.h"
 
-#include "Hazel/Events/ApplicationEvent.h"
-#include "Hazel/Events/MouseEvent.h"
-#include "Hazel/Events/KeyEvent.h"
+#include "Tabby/Events/ApplicationEvent.h"
+#include "Tabby/Events/MouseEvent.h"
+#include "Tabby/Events/KeyEvent.h"
 
-#include "Hazel/Renderer/GraphicsContext.h"
-#include "Hazel/Platform/OpenGL/OpenGLContext.h"
+#include "Tabby/Renderer/GraphicsContext.h"
+#include "Tabby/Platform/OpenGL/OpenGLContext.h"
 
 #include <GLFW/glfw3.h>
 
-namespace Hazel {
+namespace Tabby {
     static bool s_GLFWInitialized = false;
 
     static void GLFWErrorCallback(int error, const char *description) {

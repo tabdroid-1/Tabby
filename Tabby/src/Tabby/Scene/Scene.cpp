@@ -9,7 +9,7 @@
 #include "Tabby/Scene/Entity.h"
 namespace Tabby {
 
-	Scene::Scene()
+    Scene::Scene()
 	{
 	}
 
@@ -31,7 +31,7 @@ namespace Tabby {
 		m_Registry.destroy(entity);
 	}
 
-	void Scene::OnUpdate(Timestep ts)
+	void Scene::OnUpdateRuntime(Timestep ts)
 	{
 		// Update scripts
 		{
@@ -76,12 +76,27 @@ namespace Tabby {
 			{
 				auto [transform, sprite] = group.get<TransformComponent, SpriteRendererComponent>(entity);
 
-				Renderer2D::DrawQuad(transform.GetTransform(), sprite.Color);
+				Renderer2D::DrawSprite(transform.GetTransform(), sprite, (int)entity);
 			}
 
 			Renderer2D::EndScene();
 		}
 
+	}
+
+	void Scene::OnUpdateEditor(Timestep ts, EditorCamera& camera)
+	{
+		Renderer2D::BeginScene(camera);
+
+		auto group = m_Registry.group<TransformComponent>(entt::get<SpriteRendererComponent>);
+		for (auto entity : group)
+		{
+			auto [transform, sprite] = group.get<TransformComponent, SpriteRendererComponent>(entity);
+
+			Renderer2D::DrawSprite(transform.GetTransform(), sprite, (int)entity);
+		}
+
+		Renderer2D::EndScene();
 	}
 
 	void Scene::OnViewportResize(uint32_t width, uint32_t height)
@@ -100,12 +115,22 @@ namespace Tabby {
 
 	}
 
+	Entity Scene::GetPrimaryCameraEntity()
+	{
+		auto view = m_Registry.view<CameraComponent>();
+		for (auto entity : view)
+		{
+			const auto& camera = view.get<CameraComponent>(entity);
+			if (camera.Primary)
+				return Entity{entity, this};
+		}
+		return {};
+	}
+
 	template<typename T>
 	void Scene::OnComponentAdded(Entity entity, T& component)
 	{
-        // TODO : deal with it. (ERROR : static_assert failed)
-		// static_assert(false);
-		static_assert(true);
+		static_assert(sizeof(T) == 0);
 	}
 
 	template<>

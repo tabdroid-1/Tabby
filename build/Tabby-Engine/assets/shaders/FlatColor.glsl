@@ -26,3 +26,4 @@ uniform sampler2D u_Texture;
 void main() {
     color = u_Color;
 }
+

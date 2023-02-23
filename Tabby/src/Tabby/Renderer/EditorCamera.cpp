@@ -1,3 +1,4 @@
+
 #include "tbpch.h"
 #include "EditorCamera.h"
 
@@ -67,11 +68,11 @@ namespace Tabby {
 			glm::vec2 delta = (mouse - m_InitialMousePosition) * 0.003f;
 			m_InitialMousePosition = mouse;
 
-			if (Input::IsMouseButtonPressed(Mouse::ButtonMiddle))
+			if (Input::IsMouseButtonPressed(Mouse::ButtonLeft) && Input::IsKeyPressed(Key::LeftControl))
 				MousePan(delta);
 			else if (Input::IsMouseButtonPressed(Mouse::ButtonLeft))
 				MouseRotate(delta);
-			else if (Input::IsMouseButtonPressed(Mouse::ButtonRight))
+			else if (Input::IsMouseButtonPressed(Mouse::ButtonRight) && !Input::IsKeyPressed(Key::LeftControl))
 				MouseZoom(delta.y);
 		}
 

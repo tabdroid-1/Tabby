@@ -626,6 +626,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
@@ -655,21 +657,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
@@ -723,6 +713,31 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/ExampleLayer.cpp.o: /Users/tabby/Desktop
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/epsilon.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/vec1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.hpp \
@@ -1372,6 +1387,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
@@ -1401,21 +1418,9 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/trigonometric.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/matrix.hpp \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/matrix_transform.hpp \
@@ -1469,6 +1474,31 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/Sandbox2D.cpp.o: /Users/tabby/Desktop/pr
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/epsilon.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/vector_relational.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/common.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/vec1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/vector_bool1.hpp \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/type_vec1.hpp \
@@ -2221,14 +2251,30 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Entity.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/ScriptableEntity.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Components.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/glm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/constants.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/geometric.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/setup.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/detail/qualifier.hpp \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.inl \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.inl \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.h \
@@ -2237,7 +2283,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.h \
-  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h
 
 
@@ -2257,6 +2302,20 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/vec1.hpp:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.inl:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/norm.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.hpp:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.inl:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_trigonometric.inl:
@@ -2267,6 +2326,10 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_relational.inl:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_float.hpp:
+
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_common.inl:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_geometric.inl:
@@ -2274,20 +2337,6 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_common.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/quaternion.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtc/type_ptr.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Framebuffer.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_float.hpp:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h:
-
-/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/SceneCamera.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_transform.hpp:
 
@@ -2304,6 +2353,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/entt/include/entt.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Camera.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Scene/Scene.h:
 
@@ -2390,6 +2441,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_float2x4.hpp:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_exponential.inl:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/matrix_double2x4.hpp:
 
@@ -2634,6 +2687,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cctype:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_symbol_aliasing.h:
 
@@ -3149,6 +3204,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/quaternion.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h:
@@ -3377,6 +3434,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uid_t.h:
@@ -3488,6 +3547,8 @@ Sandbox/CMakeFiles/TabbySandbox.dir/src/SandboxApp.cpp.o: /Users/tabby/Desktop/p
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_float_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
+
+/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/gtx/component_wise.inl:
 
 /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/glm/glm/ext/quaternion_transform.hpp:
 

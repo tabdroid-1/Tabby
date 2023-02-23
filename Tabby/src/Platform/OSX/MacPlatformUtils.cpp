@@ -7,8 +7,8 @@
 
 namespace Tabby {
 
-  std::string FileDialogs::OpenFile(const char* filter)
-  {
+  std::optional<std::string> FileDialogs::OpenFile(const char* filter)
+  { 
     std::string res;
     auto app = Gtk::Application::create("Tabby File Selector");
     MacDialogWindow window;
@@ -18,10 +18,11 @@ namespace Tabby {
 
     if (!res.empty())
       return res;
-    return std::string();
+
+    return std::nullopt;
   }
 
-  std::string FileDialogs::SaveFile(const char* filter)
+  std::optional<std::string> FileDialogs::SaveFile(const char* filter)
   {
     std::string res;
     auto app = Gtk::Application::create("Tabby File Selector");
@@ -32,7 +33,8 @@ namespace Tabby {
 
     if (!res.empty())
       return res;
-    return std::string();
+    
+    return std::nullopt;
   }
 
 }

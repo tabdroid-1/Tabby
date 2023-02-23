@@ -623,6 +623,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o: \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Events/KeyEvent.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imgui.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/imconfig.h \
+  /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/ImGuizmo/ImGuizmo.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/backends/imgui_impl_glfw.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/imgui/backends/imgui_impl_opengl3.h \
   /Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/Glad/include/glad/glad.h \

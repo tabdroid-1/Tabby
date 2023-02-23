@@ -26,6 +26,7 @@ set(SPDLOG "${PROJECT_VENDOR_DIR}/spdlog")
 set(STB "${PROJECT_VENDOR_DIR}/stb_image")
 set(ENTT "${PROJECT_VENDOR_DIR}/entt")
 set(YAML "${PROJECT_VENDOR_DIR}/yaml-cpp")
+set(IMGUIZMO "${PROJECT_VENDOR_DIR}/ImGuizmo")
 
 ###################################################################
 # Project Sources and add library
@@ -44,6 +45,7 @@ list(APPEND PROJECT_SOURCES
         "${IMGUI}/imgui_widgets.cpp"
         "${IMGUI}/imgui_tables.cpp"
         "${IMGUI}/imgui_demo.cpp"
+        "${IMGUIZMO}/ImGuizmo.cpp"
 
         "${SPDLOG}/include/spdlog/spdlog.h" # For logging
 
@@ -61,6 +63,7 @@ add_library(${PROJECT_NAME} STATIC ${PROJECT_SOURCES})
 target_include_directories(${PROJECT_NAME} PUBLIC
         "${PROJECT_SOURCE_DIR}"
         "${PROJECT_VENDOR_DIR}"
+        "${IMGUIZMO}"
         )
 
 ###################################################################

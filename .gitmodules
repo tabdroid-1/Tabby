@@ -7,3 +7,6 @@
 [submodule "Tabby/vendor/yaml-cpp"]
 	path = Tabby/vendor/yaml-cpp
 	url = https://github.com/thecherno/yaml-cpp
+[submodule "Tabby/vendor/ImGuizmo"]
+	path = Tabby/vendor/ImGuizmo
+	url = https://github.com/thecherno/imguizmo

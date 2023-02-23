@@ -5,9 +5,11 @@
 
 namespace Tabby {
 
-    static GLenum ShaderDataTypeToOpenGLBaseType(ShaderDataType type) {
-        switch (type) {
-            case ShaderDataType::Float:    return GL_FLOAT;
+    static GLenum ShaderDataTypeToOpenGLBaseType(ShaderDataType type)
+	{
+		switch (type)
+		{
+			case ShaderDataType::Float:    return GL_FLOAT;
 			case ShaderDataType::Float2:   return GL_FLOAT;
 			case ShaderDataType::Float3:   return GL_FLOAT;
 			case ShaderDataType::Float4:   return GL_FLOAT;
@@ -18,67 +20,50 @@ namespace Tabby {
 			case ShaderDataType::Int3:     return GL_INT;
 			case ShaderDataType::Int4:     return GL_INT;
 			case ShaderDataType::Bool:     return GL_BOOL;
-        }
+		}
 
-        TB_CORE_ASSERT(false, "Unknown ShaderDataType!");
-        return 0;
-    }
+		TB_CORE_ASSERT(false, "Unknown ShaderDataType!");
+		return 0;
+	}
 
-    OpenGLVertexArray::OpenGLVertexArray() {
+	OpenGLVertexArray::OpenGLVertexArray()
+	{
+		TB_PROFILE_FUNCTION();
 
-        TB_PROFILE_FUNCTION();
+		glGenVertexArrays(1, &m_RendererID);
+	}
 
-        glGenVertexArrays(1, &m_RendererID);
-    }
+	OpenGLVertexArray::~OpenGLVertexArray()
+	{
+		TB_PROFILE_FUNCTION();
 
-    OpenGLVertexArray::~OpenGLVertexArray() {
+		glDeleteVertexArrays(1, &m_RendererID);
+	}
 
-        TB_PROFILE_FUNCTION();
+	void OpenGLVertexArray::Bind() const
+	{
+		TB_PROFILE_FUNCTION();
 
-        glDeleteVertexArrays(1, &m_RendererID);
-    }
+		glBindVertexArray(m_RendererID);
+	}
 
-    void OpenGLVertexArray::Bind() const {
+	void OpenGLVertexArray::Unbind() const
+	{
+		TB_PROFILE_FUNCTION();
 
-        TB_PROFILE_FUNCTION();
+		glBindVertexArray(0);
+	}
 
-        glBindVertexArray(m_RendererID);
-    }
+	void OpenGLVertexArray::AddVertexBuffer(const Ref<VertexBuffer>& vertexBuffer)
+	{
+		TB_PROFILE_FUNCTION();
 
-    void OpenGLVertexArray::Unbind() const {
+		TB_CORE_ASSERT(vertexBuffer->GetLayout().GetElements().size(), "Vertex Buffer has no layout!");
 
-        TB_PROFILE_FUNCTION();
+		glBindVertexArray(m_RendererID);
+		vertexBuffer->Bind();
 
-        glBindVertexArray(0);
-    }
-
-    void OpenGLVertexArray::AddVertexBuffer(const Ref<VertexBuffer>& vertexBuffer) {
-
-        TB_PROFILE_FUNCTION();
-
-        TB_CORE_ASSERT(vertexBuffer->GetLayout().GetElements().size(), "Vertex Buffer has no layout!")
-
-        glBindVertexArray(m_RendererID);
-        vertexBuffer->Bind();
-
-        // uint32_t index = 0;
-        // const auto &layout = vertexBuffer->GetLayout();
-        // for (auto &element : layout) {
-        //     // Enable index 0 of our data
-        //     glEnableVertexAttribArray(index);
-        //     // Describe data for OpenGL shader at index 0
-
-        //         // reinterpret_cast<const void *>(element.Offset)
-        //     glVertexAttribPointer(index,
-        //                           element.GetComponentCount(),
-        //                           ShaderDataTypeToOpenGLBaseType(element.Type),
-        //                           element.Normalized ? GL_TRUE : GL_FALSE,
-        //                           layout.GetStride(),
-        //                           (const void*)element.Offset);
-        //     ++index;
-        // }
-
-        const auto& layout = vertexBuffer->GetLayout();
+		const auto& layout = vertexBuffer->GetLayout();
 		for (const auto& element : layout)
 		{
 			switch (element.Type)
@@ -87,6 +72,17 @@ namespace Tabby {
 				case ShaderDataType::Float2:
 				case ShaderDataType::Float3:
 				case ShaderDataType::Float4:
+				{
+					glEnableVertexAttribArray(m_VertexBufferIndex);
+					glVertexAttribPointer(m_VertexBufferIndex,
+						element.GetComponentCount(),
+						ShaderDataTypeToOpenGLBaseType(element.Type),
+						element.Normalized ? GL_TRUE : GL_FALSE,
+						layout.GetStride(),
+						(const void*)element.Offset);
+					m_VertexBufferIndex++;
+					break;
+				}
 				case ShaderDataType::Int:
 				case ShaderDataType::Int2:
 				case ShaderDataType::Int3:
@@ -94,10 +90,9 @@ namespace Tabby {
 				case ShaderDataType::Bool:
 				{
 					glEnableVertexAttribArray(m_VertexBufferIndex);
-					glVertexAttribPointer(m_VertexBufferIndex,
+					glVertexAttribIPointer(m_VertexBufferIndex,
 						element.GetComponentCount(),
 						ShaderDataTypeToOpenGLBaseType(element.Type),
-						element.Normalized ? GL_TRUE : GL_FALSE,
 						layout.GetStride(),
 						(const void*)element.Offset);
 					m_VertexBufferIndex++;
@@ -126,17 +121,16 @@ namespace Tabby {
 			}
 		}
 
-        m_VertexBuffers.push_back(vertexBuffer);
-    }
+		m_VertexBuffers.push_back(vertexBuffer);
+	}
 
+	void OpenGLVertexArray::SetIndexBuffer(const Ref<IndexBuffer>& indexBuffer)
+	{
+		TB_PROFILE_FUNCTION();
 
-    void OpenGLVertexArray::SetIndexBuffer(const Ref<IndexBuffer>& indexBuffer) {
+		glBindVertexArray(m_RendererID);
+		indexBuffer->Bind();
 
-        TB_PROFILE_FUNCTION();
-        
-        glBindVertexArray(m_RendererID);
-        indexBuffer->Bind();
-
-        m_IndexBuffer = indexBuffer;
-    }
+		m_IndexBuffer = indexBuffer;
+	}
 }

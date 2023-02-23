@@ -647,6 +647,30 @@ src/Tabby/ImGui/ImGuiLayer.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.s
 .PHONY : src/Tabby/ImGui/ImGuiLayer.cpp.s
 
+src/Tabby/Math/Math.o: src/Tabby/Math/Math.cpp.o
+.PHONY : src/Tabby/Math/Math.o
+
+# target to build an object file
+src/Tabby/Math/Math.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o
+.PHONY : src/Tabby/Math/Math.cpp.o
+
+src/Tabby/Math/Math.i: src/Tabby/Math/Math.cpp.i
+.PHONY : src/Tabby/Math/Math.i
+
+# target to preprocess a source file
+src/Tabby/Math/Math.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.i
+.PHONY : src/Tabby/Math/Math.cpp.i
+
+src/Tabby/Math/Math.s: src/Tabby/Math/Math.cpp.s
+.PHONY : src/Tabby/Math/Math.s
+
+# target to generate assembly for a file
+src/Tabby/Math/Math.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.s
+.PHONY : src/Tabby/Math/Math.cpp.s
+
 src/Tabby/Renderer/Buffer.o: src/Tabby/Renderer/Buffer.cpp.o
 .PHONY : src/Tabby/Renderer/Buffer.o
 
@@ -1079,6 +1103,30 @@ src/tbpch.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/tbpch.cpp.s
 .PHONY : src/tbpch.cpp.s
 
+vendor/ImGuizmo/ImGuizmo.o: vendor/ImGuizmo/ImGuizmo.cpp.o
+.PHONY : vendor/ImGuizmo/ImGuizmo.o
+
+# target to build an object file
+vendor/ImGuizmo/ImGuizmo.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/vendor/ImGuizmo/ImGuizmo.cpp.o
+.PHONY : vendor/ImGuizmo/ImGuizmo.cpp.o
+
+vendor/ImGuizmo/ImGuizmo.i: vendor/ImGuizmo/ImGuizmo.cpp.i
+.PHONY : vendor/ImGuizmo/ImGuizmo.i
+
+# target to preprocess a source file
+vendor/ImGuizmo/ImGuizmo.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/vendor/ImGuizmo/ImGuizmo.cpp.i
+.PHONY : vendor/ImGuizmo/ImGuizmo.cpp.i
+
+vendor/ImGuizmo/ImGuizmo.s: vendor/ImGuizmo/ImGuizmo.cpp.s
+.PHONY : vendor/ImGuizmo/ImGuizmo.s
+
+# target to generate assembly for a file
+vendor/ImGuizmo/ImGuizmo.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/vendor/ImGuizmo/ImGuizmo.cpp.s
+.PHONY : vendor/ImGuizmo/ImGuizmo.cpp.s
+
 vendor/imgui/imgui.o: vendor/imgui/imgui.cpp.o
 .PHONY : vendor/imgui/imgui.o
 
@@ -1296,6 +1344,9 @@ help:
 	@echo "... src/Tabby/ImGui/ImGuiLayer.o"
 	@echo "... src/Tabby/ImGui/ImGuiLayer.i"
 	@echo "... src/Tabby/ImGui/ImGuiLayer.s"
+	@echo "... src/Tabby/Math/Math.o"
+	@echo "... src/Tabby/Math/Math.i"
+	@echo "... src/Tabby/Math/Math.s"
 	@echo "... src/Tabby/Renderer/Buffer.o"
 	@echo "... src/Tabby/Renderer/Buffer.i"
 	@echo "... src/Tabby/Renderer/Buffer.s"
@@ -1350,6 +1401,9 @@ help:
 	@echo "... src/tbpch.o"
 	@echo "... src/tbpch.i"
 	@echo "... src/tbpch.s"
+	@echo "... vendor/ImGuizmo/ImGuizmo.o"
+	@echo "... vendor/ImGuizmo/ImGuizmo.i"
+	@echo "... vendor/ImGuizmo/ImGuizmo.s"
 	@echo "... vendor/imgui/imgui.o"
 	@echo "... vendor/imgui/imgui.i"
 	@echo "... vendor/imgui/imgui.s"
