@@ -10,8 +10,8 @@ set(PROJECT_SRC_DIR "${CMAKE_CURRENT_LIST_DIR}/src")
 set(PROJECT_ASSETS_DIR "${CMAKE_CURRENT_LIST_DIR}/assets")
 
 # Libraries
-set(TABBY_DIR "${CMAKE_SOURCE_DIR}/Tabby")
-set(TABBY_LIB_DIR "${CMAKE_BINARY_DIR}/Tabby")
+set(TABBY_DIR "${CMAKE_SOURCE_DIR}/Tabby2D")
+set(TABBY_LIB_DIR "${CMAKE_BINARY_DIR}/Tabby2D")
 
 ###################################################################
 # Target sources and create executable
@@ -34,7 +34,7 @@ add_executable(${PROJECT_NAME} "${PROJECT_SOURCES}")
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME}
-        "Tabby"
+        "Tabby2D"
         )
 
 # Include directories

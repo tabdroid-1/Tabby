@@ -130,7 +130,8 @@ namespace Tabby {
 		auto[mx, my] = ImGui::GetMousePos();
 		mx -= m_ViewportBounds[0].x;
 		my -= m_ViewportBounds[0].y;
-		glm::vec2 viewportSize = m_ViewportBounds[1] - m_ViewportBounds[0];
+		// glm::vec2 viewportSize = m_ViewportBounds[1] - m_ViewportBounds[0];
+        glm::vec2 viewportSize = m_ViewportSize;
 		my = viewportSize.y - my;
 		int mouseX = (int)mx;
 		int mouseY = (int)my;
@@ -138,9 +139,9 @@ namespace Tabby {
 		if (mouseX >= 0 && mouseY >= 0 && mouseX < (int)viewportSize.x && mouseY < (int)viewportSize.y)
 		{
 			int pixelData = m_Framebuffer->ReadPixel(1, mouseX, mouseY);
-			m_HoveredEntity = pixelData == 1036831949 ? Entity() : Entity((entt::entity)pixelData, m_ActiveScene.get()); // TODO: noneEntity is temporary fix
+			m_HoveredEntity = pixelData == -1 ? Entity() : Entity((entt::entity)pixelData, m_ActiveScene.get()); 
 
-            TB_INFO(pixelData);
+            TB_CORE_WARN("Pixel data = {0}", pixelData);
 		}
 
 		m_Framebuffer->Unbind();
@@ -228,9 +229,10 @@ namespace Tabby {
 		ImGui::Begin("Stats");
 
 		std::string name = "None";
-		if (m_HoveredEntity)
-			name = m_HoveredEntity.GetComponent<TagComponent>().Tag;    // HERE
-		ImGui::Text("Hovered Entity: %s", name.c_str());
+		if (m_SceneHierarchyPanel.GetSelectedEntity())
+			name = m_SceneHierarchyPanel.GetSelectedEntity().GetComponent<TagComponent>().Tag;
+		ImGui::Text("Current Entity: %s", name.c_str());
+
 
 		auto stats = Renderer2D::GetStats();
 		ImGui::Text("Renderer2D Stats:");
@@ -393,7 +395,7 @@ namespace Tabby {
 
 	void EditorLayer::OpenScene()
 	{
-		std::optional<std::string> filepath = FileDialogs::OpenFile("Tabby Scene (*.hazel)\0*.hazel\0");
+		std::optional<std::string> filepath = FileDialogs::OpenFile("Tabby Scene (*.tabby)\0*.tabby\0");
 		if (filepath)
 		{
 			m_ActiveScene = CreateRef<Scene>();
@@ -407,7 +409,7 @@ namespace Tabby {
 
 	void EditorLayer::SaveSceneAs()
 	{
-		std::optional<std::string> filepath = FileDialogs::SaveFile("Tabby Scene (*.hazel)\0*.hazel\0");
+		std::optional<std::string> filepath = FileDialogs::SaveFile("Tabby Scene (*.tabby)\0*.tabby\0");
 		if (filepath)
 		{
 			SceneSerializer serializer(m_ActiveScene);

@@ -10,6 +10,6 @@ endif ()
 
 add_definitions(-w) # disables warnings
 
-add_subdirectory(Tabby)
+add_subdirectory(Tabby2D)
 add_subdirectory(Sandbox)
-add_subdirectory(Tabby-Engine)
+# add_subdirectory(Tabby-Engine)

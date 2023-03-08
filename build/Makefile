@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tabby/Desktop/projects/C++/Tabby
+CMAKE_SOURCE_DIR = /Users/tabby/Desktop/projects/C++/Tabby2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby/build
+CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,44 +97,44 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles /Users/tabby/Desktop/projects/C++/Tabby/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby2/build/CMakeFiles /Users/tabby/Desktop/projects/C++/Tabby2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tabby/Desktop/projects/C++/Tabby2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -158,22 +158,22 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tabby
+# Target rules for targets named Tabby2D
 
 # Build rule for target.
-Tabby: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tabby
-.PHONY : Tabby
+Tabby2D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tabby2D
+.PHONY : Tabby2D
 
 # fast build rule for target.
-Tabby/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/build
-.PHONY : Tabby/fast
+Tabby2D/fast:
+	$(MAKE) $(MAKESILENT) -f Tabby2D/CMakeFiles/Tabby2D.dir/build.make Tabby2D/CMakeFiles/Tabby2D.dir/build
+.PHONY : Tabby2D/fast
 
 #=============================================================================
 # Target rules for targets named glfw
@@ -185,7 +185,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Tabby/vendor/GLFW/src/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Tabby2D/vendor/GLFW/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 #=============================================================================
@@ -198,7 +198,7 @@ spdlog: cmake_check_build_system
 
 # fast build rule for target.
 spdlog/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Tabby/vendor/spdlog/CMakeFiles/spdlog.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Tabby2D/vendor/spdlog/CMakeFiles/spdlog.dir/build
 .PHONY : spdlog/fast
 
 #=============================================================================
@@ -211,7 +211,7 @@ Glad: cmake_check_build_system
 
 # fast build rule for target.
 Glad/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/Glad/CMakeFiles/Glad.dir/build.make Tabby/vendor/Glad/CMakeFiles/Glad.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/Glad/CMakeFiles/Glad.dir/build.make Tabby2D/vendor/Glad/CMakeFiles/Glad.dir/build
 .PHONY : Glad/fast
 
 #=============================================================================
@@ -224,7 +224,7 @@ uninstall: cmake_check_build_system
 
 # fast build rule for target.
 uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/glm/CMakeFiles/uninstall.dir/build.make Tabby/vendor/glm/CMakeFiles/uninstall.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/glm/CMakeFiles/uninstall.dir/build.make Tabby2D/vendor/glm/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 #=============================================================================
@@ -237,7 +237,7 @@ glm_shared: cmake_check_build_system
 
 # fast build rule for target.
 glm_shared/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/build.make Tabby/vendor/glm/glm/CMakeFiles/glm_shared.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/glm/glm/CMakeFiles/glm_shared.dir/build.make Tabby2D/vendor/glm/glm/CMakeFiles/glm_shared.dir/build
 .PHONY : glm_shared/fast
 
 #=============================================================================
@@ -250,7 +250,7 @@ imgui: cmake_check_build_system
 
 # fast build rule for target.
 imgui/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/CMakeFiles/imgui.dir/build.make Tabby/vendor/CMakeFiles/imgui.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/CMakeFiles/imgui.dir/build.make Tabby2D/vendor/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 #=============================================================================
@@ -263,7 +263,7 @@ Experimental: cmake_check_build_system
 
 # fast build rule for target.
 Experimental/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/Experimental.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/Experimental.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/Experimental.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 #=============================================================================
@@ -276,7 +276,7 @@ Nightly: cmake_check_build_system
 
 # fast build rule for target.
 Nightly/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/Nightly.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/Nightly.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/Nightly.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 #=============================================================================
@@ -289,7 +289,7 @@ Continuous: cmake_check_build_system
 
 # fast build rule for target.
 Continuous/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/Continuous.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/Continuous.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/Continuous.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 #=============================================================================
@@ -302,7 +302,7 @@ NightlyMemoryCheck: cmake_check_build_system
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 #=============================================================================
@@ -315,7 +315,7 @@ NightlyStart: cmake_check_build_system
 
 # fast build rule for target.
 NightlyStart/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyStart.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyStart.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyStart.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 #=============================================================================
@@ -328,7 +328,7 @@ NightlyUpdate: cmake_check_build_system
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 #=============================================================================
@@ -341,7 +341,7 @@ NightlyConfigure: cmake_check_build_system
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 #=============================================================================
@@ -354,7 +354,7 @@ NightlyBuild: cmake_check_build_system
 
 # fast build rule for target.
 NightlyBuild/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyBuild.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyBuild.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyBuild.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 #=============================================================================
@@ -367,7 +367,7 @@ NightlyTest: cmake_check_build_system
 
 # fast build rule for target.
 NightlyTest/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyTest.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyTest.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyTest.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 #=============================================================================
@@ -380,7 +380,7 @@ NightlyCoverage: cmake_check_build_system
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 #=============================================================================
@@ -393,7 +393,7 @@ NightlyMemCheck: cmake_check_build_system
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 #=============================================================================
@@ -406,7 +406,7 @@ NightlySubmit: cmake_check_build_system
 
 # fast build rule for target.
 NightlySubmit/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/NightlySubmit.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/NightlySubmit.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlySubmit.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 #=============================================================================
@@ -419,7 +419,7 @@ ExperimentalStart: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 #=============================================================================
@@ -432,7 +432,7 @@ ExperimentalUpdate: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 #=============================================================================
@@ -445,7 +445,7 @@ ExperimentalConfigure: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 #=============================================================================
@@ -458,7 +458,7 @@ ExperimentalBuild: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 #=============================================================================
@@ -471,7 +471,7 @@ ExperimentalTest: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 #=============================================================================
@@ -484,7 +484,7 @@ ExperimentalCoverage: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 #=============================================================================
@@ -497,7 +497,7 @@ ExperimentalMemCheck: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 #=============================================================================
@@ -510,7 +510,7 @@ ExperimentalSubmit: cmake_check_build_system
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 #=============================================================================
@@ -523,7 +523,7 @@ ContinuousStart: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousStart/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousStart.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousStart.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousStart.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 #=============================================================================
@@ -536,7 +536,7 @@ ContinuousUpdate: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 #=============================================================================
@@ -549,7 +549,7 @@ ContinuousConfigure: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 #=============================================================================
@@ -562,7 +562,7 @@ ContinuousBuild: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 #=============================================================================
@@ -575,7 +575,7 @@ ContinuousTest: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousTest/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousTest.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousTest.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousTest.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 #=============================================================================
@@ -588,7 +588,7 @@ ContinuousCoverage: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 #=============================================================================
@@ -601,7 +601,7 @@ ContinuousMemCheck: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 #=============================================================================
@@ -614,7 +614,7 @@ ContinuousSubmit: cmake_check_build_system
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
@@ -627,7 +627,7 @@ yaml-cpp: cmake_check_build_system
 
 # fast build rule for target.
 yaml-cpp/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/build.make Tabby/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/build.make Tabby2D/vendor/yaml-cpp/CMakeFiles/yaml-cpp.dir/build
 .PHONY : yaml-cpp/fast
 
 #=============================================================================
@@ -640,7 +640,7 @@ yaml-cpp-sandbox: cmake_check_build_system
 
 # fast build rule for target.
 yaml-cpp-sandbox/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/build
 .PHONY : yaml-cpp-sandbox/fast
 
 #=============================================================================
@@ -653,7 +653,7 @@ yaml-cpp-parse: cmake_check_build_system
 
 # fast build rule for target.
 yaml-cpp-parse/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build.make Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build.make Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/build
 .PHONY : yaml-cpp-parse/fast
 
 #=============================================================================
@@ -666,7 +666,7 @@ yaml-cpp-read: cmake_check_build_system
 
 # fast build rule for target.
 yaml-cpp-read/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build.make Tabby/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build
+	$(MAKE) $(MAKESILENT) -f Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build.make Tabby2D/vendor/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
 #=============================================================================
@@ -694,32 +694,6 @@ copy_assets_sandbox: cmake_check_build_system
 copy_assets_sandbox/fast:
 	$(MAKE) $(MAKESILENT) -f Sandbox/CMakeFiles/copy_assets_sandbox.dir/build.make Sandbox/CMakeFiles/copy_assets_sandbox.dir/build
 .PHONY : copy_assets_sandbox/fast
-
-#=============================================================================
-# Target rules for targets named TabbyEngine
-
-# Build rule for target.
-TabbyEngine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TabbyEngine
-.PHONY : TabbyEngine
-
-# fast build rule for target.
-TabbyEngine/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/TabbyEngine.dir/build.make Tabby-Engine/CMakeFiles/TabbyEngine.dir/build
-.PHONY : TabbyEngine/fast
-
-#=============================================================================
-# Target rules for targets named copy_assets_editor
-
-# Build rule for target.
-copy_assets_editor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_assets_editor
-.PHONY : copy_assets_editor
-
-# fast build rule for target.
-copy_assets_editor/fast:
-	$(MAKE) $(MAKESILENT) -f Tabby-Engine/CMakeFiles/copy_assets_editor.dir/build.make Tabby-Engine/CMakeFiles/copy_assets_editor.dir/build
-.PHONY : copy_assets_editor/fast
 
 # Help Target
 help:
@@ -761,12 +735,10 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... copy_assets_editor"
 	@echo "... copy_assets_sandbox"
 	@echo "... uninstall"
 	@echo "... Glad"
-	@echo "... Tabby"
-	@echo "... TabbyEngine"
+	@echo "... Tabby2D"
 	@echo "... TabbySandbox"
 	@echo "... glfw"
 	@echo "... glm_shared"
@@ -787,7 +759,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/tabby/Desktop/projects/C++/Tabby2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

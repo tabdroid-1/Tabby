@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tabby/Desktop/projects/C++/Tabby
+CMAKE_SOURCE_DIR = /Users/tabby/Desktop/projects/C++/Tabby2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby/build
+CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby2/build
 
 # Utility rule file for copy_assets_sandbox.
 
@@ -67,7 +67,7 @@ include Sandbox/CMakeFiles/copy_assets_sandbox.dir/compiler_depend.make
 include Sandbox/CMakeFiles/copy_assets_sandbox.dir/progress.make
 
 Sandbox/CMakeFiles/copy_assets_sandbox:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/assets /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox/assets
+	cd /Users/tabby/Desktop/projects/C++/Tabby2/build/Sandbox && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby2/Sandbox/assets /Users/tabby/Desktop/projects/C++/Tabby2/build/Sandbox/assets
 
 copy_assets_sandbox: Sandbox/CMakeFiles/copy_assets_sandbox
 copy_assets_sandbox: Sandbox/CMakeFiles/copy_assets_sandbox.dir/build.make
@@ -78,10 +78,10 @@ Sandbox/CMakeFiles/copy_assets_sandbox.dir/build: copy_assets_sandbox
 .PHONY : Sandbox/CMakeFiles/copy_assets_sandbox.dir/build
 
 Sandbox/CMakeFiles/copy_assets_sandbox.dir/clean:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && $(CMAKE_COMMAND) -P CMakeFiles/copy_assets_sandbox.dir/cmake_clean.cmake
+	cd /Users/tabby/Desktop/projects/C++/Tabby2/build/Sandbox && $(CMAKE_COMMAND) -P CMakeFiles/copy_assets_sandbox.dir/cmake_clean.cmake
 .PHONY : Sandbox/CMakeFiles/copy_assets_sandbox.dir/clean
 
 Sandbox/CMakeFiles/copy_assets_sandbox.dir/depend:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tabby/Desktop/projects/C++/Tabby /Users/tabby/Desktop/projects/C++/Tabby/Sandbox /Users/tabby/Desktop/projects/C++/Tabby/build /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox/CMakeFiles/copy_assets_sandbox.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tabby/Desktop/projects/C++/Tabby2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tabby/Desktop/projects/C++/Tabby2 /Users/tabby/Desktop/projects/C++/Tabby2/Sandbox /Users/tabby/Desktop/projects/C++/Tabby2/build /Users/tabby/Desktop/projects/C++/Tabby2/build/Sandbox /Users/tabby/Desktop/projects/C++/Tabby2/build/Sandbox/CMakeFiles/copy_assets_sandbox.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Sandbox/CMakeFiles/copy_assets_sandbox.dir/depend
 
