@@ -2,12 +2,15 @@
 
 #include "Tabby/Core/Application.h"
 
+
+extern Tabby::Application* Tabby::CreateApplication(ApplicationCommandLineArgs args);
+
 int main(int argc, char **argv) {
 
     Tabby::Log::Init();
 
     TB_PROFILE_BEGIN_SESSION("Startup", "TabbyProfile-Startup.json");
-    auto app = Tabby::CreateApplication();
+    auto app = Hazel::CreateApplication({ argc, argv });
     TB_PROFILE_END_SESSION();
 
 	TB_PROFILE_BEGIN_SESSION("Runtime", "TabbyProfile-Runtime.json");

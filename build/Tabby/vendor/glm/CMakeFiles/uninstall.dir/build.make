@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include Tabby/vendor/glm/CMakeFiles/uninstall.dir/compiler_depend.make
 include Tabby/vendor/glm/CMakeFiles/uninstall.dir/progress.make
 
 Tabby/vendor/glm/CMakeFiles/uninstall:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/glm && /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -P /Users/tabby/Desktop/projects/C++/Tabby/build/cmake_uninstall.cmake
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/glm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -P /Users/tabby/Desktop/projects/C++/Tabby/build/cmake_uninstall.cmake
 
 uninstall: Tabby/vendor/glm/CMakeFiles/uninstall
 uninstall: Tabby/vendor/glm/CMakeFiles/uninstall.dir/build.make

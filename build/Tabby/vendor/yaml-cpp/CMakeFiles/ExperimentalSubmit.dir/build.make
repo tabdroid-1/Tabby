@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/compiler_depend.
 include Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/progress.make
 
 Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp && /opt/homebrew/Cellar/cmake/3.25.1/bin/ctest -D ExperimentalSubmit
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp && /opt/homebrew/Cellar/cmake/3.25.2/bin/ctest -D ExperimentalSubmit
 
 ExperimentalSubmit: Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit
 ExperimentalSubmit: Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalSubmit.dir/build.make

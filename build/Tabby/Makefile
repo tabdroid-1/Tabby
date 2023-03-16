@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/tabby/Desktop/projects/C++/Tabby/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,37 +97,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
@@ -238,30 +238,6 @@ src/Platform/OSX/MacInput.s: src/Platform/OSX/MacInput.cpp.s
 src/Platform/OSX/MacInput.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s
 .PHONY : src/Platform/OSX/MacInput.cpp.s
-
-src/Platform/OSX/MacPlatformUtils.o: src/Platform/OSX/MacPlatformUtils.cpp.o
-.PHONY : src/Platform/OSX/MacPlatformUtils.o
-
-# target to build an object file
-src/Platform/OSX/MacPlatformUtils.cpp.o:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o
-.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.o
-
-src/Platform/OSX/MacPlatformUtils.i: src/Platform/OSX/MacPlatformUtils.cpp.i
-.PHONY : src/Platform/OSX/MacPlatformUtils.i
-
-# target to preprocess a source file
-src/Platform/OSX/MacPlatformUtils.cpp.i:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.i
-.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.i
-
-src/Platform/OSX/MacPlatformUtils.s: src/Platform/OSX/MacPlatformUtils.cpp.s
-.PHONY : src/Platform/OSX/MacPlatformUtils.s
-
-# target to generate assembly for a file
-src/Platform/OSX/MacPlatformUtils.cpp.s:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.s
-.PHONY : src/Platform/OSX/MacPlatformUtils.cpp.s
 
 src/Platform/OSX/MacWindow.o: src/Platform/OSX/MacWindow.cpp.o
 .PHONY : src/Platform/OSX/MacWindow.o
@@ -959,6 +935,30 @@ src/Tabby/Renderer/Texture.cpp.s:
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.s
 .PHONY : src/Tabby/Renderer/Texture.cpp.s
 
+src/Tabby/Renderer/UniformBuffer.o: src/Tabby/Renderer/UniformBuffer.cpp.o
+.PHONY : src/Tabby/Renderer/UniformBuffer.o
+
+# target to build an object file
+src/Tabby/Renderer/UniformBuffer.cpp.o:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o
+.PHONY : src/Tabby/Renderer/UniformBuffer.cpp.o
+
+src/Tabby/Renderer/UniformBuffer.i: src/Tabby/Renderer/UniformBuffer.cpp.i
+.PHONY : src/Tabby/Renderer/UniformBuffer.i
+
+# target to preprocess a source file
+src/Tabby/Renderer/UniformBuffer.cpp.i:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.i
+.PHONY : src/Tabby/Renderer/UniformBuffer.cpp.i
+
+src/Tabby/Renderer/UniformBuffer.s: src/Tabby/Renderer/UniformBuffer.cpp.s
+.PHONY : src/Tabby/Renderer/UniformBuffer.s
+
+# target to generate assembly for a file
+src/Tabby/Renderer/UniformBuffer.cpp.s:
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build && $(MAKE) $(MAKESILENT) -f Tabby/CMakeFiles/Tabby.dir/build.make Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.s
+.PHONY : src/Tabby/Renderer/UniformBuffer.cpp.s
+
 src/Tabby/Renderer/VertexArray.o: src/Tabby/Renderer/VertexArray.cpp.o
 .PHONY : src/Tabby/Renderer/VertexArray.o
 
@@ -1293,9 +1293,6 @@ help:
 	@echo "... src/Platform/OSX/MacInput.o"
 	@echo "... src/Platform/OSX/MacInput.i"
 	@echo "... src/Platform/OSX/MacInput.s"
-	@echo "... src/Platform/OSX/MacPlatformUtils.o"
-	@echo "... src/Platform/OSX/MacPlatformUtils.i"
-	@echo "... src/Platform/OSX/MacPlatformUtils.s"
 	@echo "... src/Platform/OSX/MacWindow.o"
 	@echo "... src/Platform/OSX/MacWindow.i"
 	@echo "... src/Platform/OSX/MacWindow.s"
@@ -1383,6 +1380,9 @@ help:
 	@echo "... src/Tabby/Renderer/Texture.o"
 	@echo "... src/Tabby/Renderer/Texture.i"
 	@echo "... src/Tabby/Renderer/Texture.s"
+	@echo "... src/Tabby/Renderer/UniformBuffer.o"
+	@echo "... src/Tabby/Renderer/UniformBuffer.i"
+	@echo "... src/Tabby/Renderer/UniformBuffer.s"
 	@echo "... src/Tabby/Renderer/VertexArray.o"
 	@echo "... src/Tabby/Renderer/VertexArray.i"
 	@echo "... src/Tabby/Renderer/VertexArray.s"

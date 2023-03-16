@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include Tabby-Engine/CMakeFiles/copy_assets_editor.dir/compiler_depend.make
 include Tabby-Engine/CMakeFiles/copy_assets_editor.dir/progress.make
 
 Tabby-Engine/CMakeFiles/copy_assets_editor:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/assets /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine/assets
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby/Tabby-Engine/assets /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby-Engine/assets
 
 copy_assets_editor: Tabby-Engine/CMakeFiles/copy_assets_editor
 copy_assets_editor: Tabby-Engine/CMakeFiles/copy_assets_editor.dir/build.make

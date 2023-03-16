@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -134,22 +134,22 @@ Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtkmm3/3.24.7/lib/libgtkmm-3.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/atkmm@2.28/2.28.3/lib/libatkmm-1.6.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtkmm3/3.24.7/lib/libgdkmm-3.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/glibmm@2.66/2.66.5/lib/libgiomm-2.4.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtk+3/3.24.36/lib/libgtk-3.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtk+3/3.24.36/lib/libgdk-3.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtk+3/3.24.37/lib/libgtk-3.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/gtk+3/3.24.37/lib/libgdk-3.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/atk/2.38.0/lib/libatk-1.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo-gobject.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.4/lib/libgio-2.0.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.6/lib/libgio-2.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/pangomm@2.46/2.46.3/lib/libpangomm-1.4.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/glibmm@2.66/2.66.5/lib/libglibmm-2.4.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/cairomm@1.14/1.14.4/lib/libcairomm-1.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/libsigc++@2/2.10.8/lib/libsigc-2.0.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/pango/1.50.12/lib/libpangocairo-1.0.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/pango/1.50.12/lib/libpango-1.0.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/harfbuzz/5.3.1/lib/libharfbuzz.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/pango/1.50.14/lib/libpangocairo-1.0.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/pango/1.50.14/lib/libpango-1.0.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/harfbuzz/7.1.0/lib/libharfbuzz.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/cairo/1.16.0_5/lib/libcairo.dylib
 Sandbox/TabbySandbox: /opt/homebrew/Cellar/gdk-pixbuf/2.42.10/lib/libgdk_pixbuf-2.0.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.4/lib/libgobject-2.0.dylib
-Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.4/lib/libglib-2.0.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.6/lib/libgobject-2.0.dylib
+Sandbox/TabbySandbox: /opt/homebrew/Cellar/glib/2.74.6/lib/libglib-2.0.dylib
 Sandbox/TabbySandbox: /opt/homebrew/opt/gettext/lib/libintl.dylib
 Sandbox/TabbySandbox: Sandbox/CMakeFiles/TabbySandbox.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TabbySandbox"

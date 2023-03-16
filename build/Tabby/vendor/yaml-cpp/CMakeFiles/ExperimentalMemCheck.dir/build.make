@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/compiler_depen
 include Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/progress.make
 
 Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp && /opt/homebrew/Cellar/cmake/3.25.1/bin/ctest -D ExperimentalMemCheck
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/vendor/yaml-cpp && /opt/homebrew/Cellar/cmake/3.25.2/bin/ctest -D ExperimentalMemCheck
 
 ExperimentalMemCheck: Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck
 ExperimentalMemCheck: Tabby/vendor/yaml-cpp/CMakeFiles/ExperimentalMemCheck.dir/build.make

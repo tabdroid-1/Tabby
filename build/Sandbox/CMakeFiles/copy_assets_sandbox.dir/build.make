@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include Sandbox/CMakeFiles/copy_assets_sandbox.dir/compiler_depend.make
 include Sandbox/CMakeFiles/copy_assets_sandbox.dir/progress.make
 
 Sandbox/CMakeFiles/copy_assets_sandbox:
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/assets /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox/assets
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E copy_directory /Users/tabby/Desktop/projects/C++/Tabby/Sandbox/assets /Users/tabby/Desktop/projects/C++/Tabby/build/Sandbox/assets
 
 copy_assets_sandbox: Sandbox/CMakeFiles/copy_assets_sandbox
 copy_assets_sandbox: Sandbox/CMakeFiles/copy_assets_sandbox.dir/build.make

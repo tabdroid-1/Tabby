@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -116,28 +116,12 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacInput.cpp -o CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.s
 
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o: Tabby/CMakeFiles/Tabby.dir/flags.make
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacPlatformUtils.cpp
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o"
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacPlatformUtils.cpp
-
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.i"
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -E /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacPlatformUtils.cpp > CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.i
-
-Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.s"
-	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacPlatformUtils.cpp -o CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.s
-
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/flags.make
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacWindow.cpp
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OSX/MacWindow.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.i: cmake_force
@@ -153,7 +137,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o: /Users/tabby/
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLBuffer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.i: cmake_force
@@ -169,7 +153,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o: /Users/tabby
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLContext.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.i: cmake_force
@@ -185,7 +169,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o: /Users/t
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLFramebuffer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLFramebuffer.cpp.i: cmake_force
@@ -201,7 +185,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o: /Users/t
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLRendererAPI.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLRendererAPI.cpp.i: cmake_force
@@ -217,7 +201,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o: /Users/tabby/
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLShader.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLShader.cpp.i: cmake_force
@@ -233,7 +217,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o: /Users/tabby
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLTexture.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLTexture.cpp.i: cmake_force
@@ -249,7 +233,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o: /Users/t
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/OpenGL/OpenGLVertexArray.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLVertexArray.cpp.i: cmake_force
@@ -265,7 +249,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o: /User
 Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o -MF CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o.d -o CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Platform/WindowsWindow/WindowsWindow.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Platform/WindowsWindow/WindowsWindow.cpp.i: cmake_force
@@ -281,7 +265,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o: /Users/tabby/Deskto
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Application.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Application.cpp.i: cmake_force
@@ -297,7 +281,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o: /Users/tabby/Desktop/proj
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Layer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Layer.cpp.i: cmake_force
@@ -313,7 +297,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o: /Users/tabby/Desktop
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/LayerStack.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/LayerStack.cpp.i: cmake_force
@@ -329,7 +313,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o: /Users/tabby/Desktop/projec
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Log.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Log.cpp.i: cmake_force
@@ -345,7 +329,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o: /Users/tabby/Desktop/pro
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Core/Window.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Core/Window.cpp.i: cmake_force
@@ -361,7 +345,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o: /Users/tabby/Deskto
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/ImGui/ImGuiBuild.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiBuild.cpp.i: cmake_force
@@ -377,7 +361,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o: /Users/tabby/Deskto
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/ImGui/ImGuiLayer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/ImGui/ImGuiLayer.cpp.i: cmake_force
@@ -393,7 +377,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o: /Users/tabby/Desktop/proje
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Math/Math.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Math/Math.cpp.i: cmake_force
@@ -409,7 +393,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o: /Users/tabby/Desktop
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Buffer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Buffer.cpp.i: cmake_force
@@ -425,7 +409,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o: /Users/tabby/D
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/EditorCamera.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/EditorCamera.cpp.i: cmake_force
@@ -441,7 +425,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o: /Users/tabby/De
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/FrameBuffer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/FrameBuffer.cpp.i: cmake_force
@@ -457,7 +441,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o: /Users/tabb
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/GraphicsContext.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/GraphicsContext.cpp.i: cmake_force
@@ -473,7 +457,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o: /Users/t
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCamera.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCamera.cpp.i: cmake_force
@@ -489,7 +473,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/OrthographicCameraController.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/OrthographicCameraController.cpp.i: cmake_force
@@ -505,7 +489,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o: /Users/tabby/
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RenderCommand.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RenderCommand.cpp.i: cmake_force
@@ -521,7 +505,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o: /Users/tabby/Deskt
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer.cpp.i: cmake_force
@@ -537,7 +521,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o: /Users/tabby/Des
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Renderer2D.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.i: cmake_force
@@ -553,7 +537,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o: /Users/tabby/De
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/RendererAPI.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.i: cmake_force
@@ -569,7 +553,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o: /Users/tabby/Desktop
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Shader.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.i: cmake_force
@@ -585,7 +569,7 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o: /Users/tabby/Deskto
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.cpp
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.i: cmake_force
@@ -595,6 +579,22 @@ Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.i: cmake_force
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.s"
 	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/Texture.cpp -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.s
+
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/flags.make
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/UniformBuffer.cpp
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o: Tabby/CMakeFiles/Tabby.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tabby/Desktop/projects/C++/Tabby/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -MD -MT Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o -MF CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o.d -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o -c /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/UniformBuffer.cpp
+
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.i"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -E /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/UniformBuffer.cpp > CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.i
+
+Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.s"
+	cd /Users/tabby/Desktop/projects/C++/Tabby/build/Tabby && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xarch_arm64 -include/Users/tabby/Desktop/projects/C++/Tabby/build/Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx -S /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/UniformBuffer.cpp -o CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.s
 
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/VertexArray.cpp.o: Tabby/CMakeFiles/Tabby.dir/flags.make
 Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/VertexArray.cpp.o: /Users/tabby/Desktop/projects/C++/Tabby/Tabby/src/Tabby/Renderer/VertexArray.cpp
@@ -808,7 +808,6 @@ Tabby/CMakeFiles/Tabby.dir/vendor/stb_image/stb_image.cpp.s: cmake_force
 Tabby_OBJECTS = \
 "CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o" \
-"CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o" \
@@ -838,6 +837,7 @@ Tabby_OBJECTS = \
 "CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o" \
+"CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Tabby/Renderer/VertexArray.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.o" \
 "CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.o" \
@@ -858,7 +858,6 @@ Tabby_EXTERNAL_OBJECTS =
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/cmake_pch_arm64.hxx.pch
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacDialogWindow.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacInput.cpp.o
-Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacPlatformUtils.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OSX/MacWindow.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLBuffer.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Platform/OpenGL/OpenGLContext.cpp.o
@@ -888,6 +887,7 @@ Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Renderer2D.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/RendererAPI.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Shader.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/Texture.cpp.o
+Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/UniformBuffer.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Renderer/VertexArray.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Entity.cpp.o
 Tabby/libTabby.a: Tabby/CMakeFiles/Tabby.dir/src/Tabby/Scene/Scene.cpp.o

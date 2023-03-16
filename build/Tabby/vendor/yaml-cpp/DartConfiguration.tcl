@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake" "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/yaml-cpp"
-MakeCommand: /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake" "/Users/tabby/Desktop/projects/C++/Tabby/Tabby/vendor/yaml-cpp"
+MakeCommand: /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
