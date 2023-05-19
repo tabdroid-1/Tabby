@@ -4,3 +4,6 @@ Highy modified version of Hazel engine to run on OpenGL 4.1 since Mac supports u
 
 
 debug = cmake -DCMAKE_BUILD_TYPE=Debug ..
+
+
+this will be archived to work on cleaner and better one
